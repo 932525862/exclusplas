@@ -19,9 +19,7 @@ const Products = () => {
     t("products.household"),
     t("products.industrial"),
     t("products.packaging"),
-    t("products.household"),
-    t("products.industrial"),
-    t("products.packaging"),
+  
   ];
 
   return (
@@ -48,6 +46,29 @@ const Products = () => {
             {t("products.title")}
           </h1>
           <p className="text-xl md:text-2xl">{t("products.subtitle")}</p>
+        </div>
+      </section>
+
+      {/* Product Categories */}
+      <section className="py-20 bg-muted">
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl font-bold text-center mb-12">{t("products.categories")}</h2>
+          
+          <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+            {categories.map((category, index) => (
+              <Card
+                key={index}
+                className="hover:shadow-premium transition-all duration-300 hover:scale-105 border-primary/20"
+              >
+                <CardContent className="p-6">
+                  <div className="flex items-center">
+                    <div className="w-3 h-3 bg-accent rounded-full mr-3" />
+                    <h3 className="text-lg font-semibold">{category}</h3>
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -82,28 +103,7 @@ const Products = () => {
         </div>
       </section>
 
-      {/* Product Categories */}
-      <section className="py-20 bg-muted">
-        <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12">{t("products.categories")}</h2>
-          
-          <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
-            {categories.map((category, index) => (
-              <Card
-                key={index}
-                className="hover:shadow-premium transition-all duration-300 hover:scale-105 border-primary/20"
-              >
-                <CardContent className="p-6">
-                  <div className="flex items-center">
-                    <div className="w-3 h-3 bg-accent rounded-full mr-3" />
-                    <h3 className="text-lg font-semibold">{category}</h3>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
+      
 
       {/* Features */}
       <section className="py-20 bg-background">
