@@ -4,6 +4,7 @@ import productBarrels from "@/assets/product-barrels.jpg";
 import customManufacturing from "@/assets/custom-manufacturing.jpg";
 import { useTranslation } from "react-i18next";
 import { getImage } from "@/lib/getImage";
+import Backvideo2 from "@/assets/backrount2.mp4";
 
 const Products = () => {
   const { t } = useTranslation();
@@ -26,14 +27,27 @@ const Products = () => {
   return (
     <div className="min-h-screen pt-20">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-primary text-primary-foreground">
-        <div className="container mx-auto px-4 text-center">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 animate-fade-in">
+      <section className="relative h-96 flex items-center justify-center overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <video
+            className="w-full h-full object-cover"
+            autoPlay
+            loop
+            muted
+            playsInline
+          >
+            <source src={Backvideo2} type="video/mp4" />
+          </video>
+
+          {/* Updated bottom-to-top gradient */}
+          <div className="absolute inset-0 bg-gradient-to-t from-[#044e35]/100 via-[#044e35]/40 to-transparent" />
+        </div>
+
+        <div className="container mx-auto px-4 z-10 text-center text-primary-foreground">
+          <h1 className="text-5xl md:text-6xl font-bold mb-4 animate-fade-in">
             {t("products.title")}
           </h1>
-          <p className="text-xl md:text-2xl max-w-3xl mx-auto">
-            {t("products.subtitle")}
-          </p>
+          <p className="text-xl md:text-2xl">{t("products.subtitle")}</p>
         </div>
       </section>
 

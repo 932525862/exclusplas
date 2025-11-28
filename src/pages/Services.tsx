@@ -51,44 +51,24 @@ const Services = () => {
       {/* Services Grid */}
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
-          <div className="space-y-16">
+          <div className="grid grid-cols-2 gap-x-4 gap-y-8">
             {services.map((service, index) => (
-              <div
-                key={index}
-                className={`grid md:grid-cols-2 gap-8 items-center ${
-                  index % 2 === 1 ? "md:grid-flow-dense" : ""
-                }`}
-              >
-                <div
-                  className={`animate-fade-in ${
-                    index % 2 === 1 ? "md:col-start-2" : ""
-                  }`}
-                >
-                  <Card className="overflow-hidden shadow-premium h-full">
-                    <img
-                      src={service.image}
-                      alt={service.title}
-                      className="w-full h-80 object-cover hover:scale-110 transition-transform duration-500"
-                    />
-                  </Card>
-                </div>
-                
-                <div
-                  className={`animate-fade-in animation-delay-150 ${
-                    index % 2 === 1 ? "md:col-start-1 md:row-start-1" : ""
-                  }`}
-                >
-                  <Card className="border-primary/20 h-full">
-                    <CardContent className="p-8">
-                      <service.icon className="w-16 h-16 text-accent mb-6" />
-                      <h3 className="text-3xl font-bold mb-4">{service.title}</h3>
-                      <p className="text-lg text-muted-foreground leading-relaxed">
-                        {service.description}
-                      </p>
-                    </CardContent>
-                  </Card>
-                </div>
-              </div>
+              <Card key={index} className="overflow-hidden group">      
+                <div className="overflow-hidden">
+                  <img
+                    src={service.image}
+                    alt={service.title}
+                    className="w-full h-80 overflow-hidden object-cover group-hover:scale-110 transition-transform duration-500"
+                  />
+                </div>                
+                <CardContent>
+                  <service.icon className="w-16 h-16 text-accent mb-6" />
+                  <h3 className="text-3xl font-bold mb-4">{service.title}</h3>
+                  <p className="text-lg text-muted-foreground leading-relaxed">
+                    {service.description}
+                  </p>
+                </CardContent>
+              </Card>
             ))}
           </div>
         </div>
