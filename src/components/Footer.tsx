@@ -1,17 +1,24 @@
 import { Instagram, Send } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import Logo from "@/assets/лого.png";
 
 const Footer = () => {
   const { t } = useTranslation();
 
   return (
-    <footer className="bg-primary-dark text-primary-foreground">
+    <footer className="bg-[#044e35] text-primary-foreground">
       <div className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
+
+          {/* Logo + Company Name */}
           <div>
-            <h3 className="text-2xl font-bold bg-gradient-accent bg-clip-text text-transparent mb-4">
-              EXCLUSIVE PLAST
-            </h3>
+            <div className="flex items-center space-x-3 mb-4">
+              <img src={Logo} alt="Exclusive Plast Logo" className="h-12 w-auto" />
+              <h3 className="text-2xl font-bold bg-gradient-accent bg-clip-text text-transparent">
+                EXCLUSIVE PLAST
+              </h3>
+            </div>
+
             <p className="text-primary-foreground/80">
               {t("footer.about")}
             </p>
@@ -22,11 +29,14 @@ const Footer = () => {
             <p className="text-primary-foreground/80">
               {t("footer.address")}
             </p>
-            <p className="text-primary-foreground/80 mt-2">
-              Tel: +998 XX XXX XX XX
+            <a href="tel:+998987170808" className="">
+              <p className="text-primary-foreground/80 mt-2">
+              Tel: +998 98 717 08 08
             </p>
+            </a>
+            
             <p className="text-primary-foreground/80">
-              Email: info@exclusiveplast.uz
+              Email: exinvest@inbox.ru
             </p>
           </div>
           

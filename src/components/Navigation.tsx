@@ -9,8 +9,9 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import Logo from "@/assets/лого.png";
 
-const Navigation = () => {
+const Navigation = () => {  
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
   const { t, i18n } = useTranslation();
@@ -23,9 +24,9 @@ const Navigation = () => {
   ];
 
   const languages = [
-    { code: 'uz', name: 'O\'zbekcha' },
-    { code: 'ru', name: 'Русский' },
-    { code: 'en', name: 'English' },
+    { code: 'uz', name: "O'zbekcha" },
+    { code: 'ru', name: "Русский" },
+    { code: 'en', name: "English" },
   ];
 
   const changeLanguage = (lng: string) => {
@@ -35,10 +36,13 @@ const Navigation = () => {
   const isActive = (path: string) => location.pathname === path;
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-primary/95 backdrop-blur-sm shadow-premium">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-[#044e35] backdrop-blur-sm shadow-premium">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          <Link to="/" className="flex items-center space-x-2">
+
+          {/* Logo + Company Name */}
+          <Link to="/" className="flex items-center space-x-3">
+            <img src={Logo} alt="Exclusive Plast Logo" className="h-12 w-auto" />
             <div className="text-2xl font-bold bg-gradient-accent bg-clip-text text-transparent">
               EXCLUSIVE PLAST
             </div>
