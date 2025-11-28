@@ -4,9 +4,6 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useNavigate } from "react-router-dom";
 import { ArrowRight, Factory, Shield, Clock } from "lucide-react";
-import heroImage from "@/assets/hero-image.jpg";
-import productContainers from "@/assets/product-containers.jpg";
-import productBarrels from "@/assets/product-barrels.jpg";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 import { useTranslation } from "react-i18next";
@@ -17,7 +14,10 @@ import Partner3 from "@/assets/unnamed (3).png";
 import Partner4 from "@/assets/unnamed (4).png";
 import Partner5 from "@/assets/unnamed (5).png";
 import Partner6 from "@/assets/unnamed (6).png";
- 
+import Sertifikat1 from "@/assets/sertifikat.jpg";
+import Sertifikat2 from "@/assets/sertifikat2.jpg";
+import { getImage } from "@/lib/getImage";
+
 const Home = () => {
   const navigate = useNavigate();
   const { toast } = useToast();
@@ -29,14 +29,23 @@ const Home = () => {
     message: "",
   });
 
-  const partners = [
-  Partner1,
-  Partner2,
-  Partner3,
-  Partner4,
-  Partner5,
-  Partner6,
-];
+  const partners = [Partner1, Partner2, Partner3, Partner4, Partner5, Partner6];
+  const productNubers = [1, 5, 52];
+
+  const products = productNubers.map((i) => ({
+    name: t(`products_data.product${i}.title`),
+    description: t(`products_data.product${i}.desc`),
+    image: getImage(`${i}.png`),
+  }));
+
+  const categories = [
+    t("products.household"),
+    t("products.industrial"),
+    t("products.packaging"),
+    t("products.household"),
+    t("products.industrial"),
+    t("products.packaging"),
+  ];
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -50,41 +59,41 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-     <section className="relative h-screen flex items-center justify-center overflow-hidden">
-  <div className="absolute inset-0 z-0">
-    <video
-      className="w-full h-full object-cover"
-      autoPlay
-      loop
-      muted
-      playsInline
-    >
-      <source src={Backvideo} type="video/mp4" />
-    </video>
+      <section className="relative h-screen flex items-center justify-center overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <video
+            className="w-full h-full object-cover"
+            autoPlay
+            loop
+            muted
+            playsInline
+          >
+            <source src={Backvideo} type="video/mp4" />
+          </video>
 
-    {/* Updated bottom-to-top gradient */}
-    <div className="absolute inset-0 bg-gradient-to-t from-[#044e35]/80 via-[#044e35]/40 to-transparent" />
-  </div>
+          {/* Updated bottom-to-top gradient */}
+          <div className="absolute inset-0 bg-gradient-to-t from-[#044e35]/80 via-[#044e35]/40 to-transparent" />
+        </div>
 
-  <div className="container mx-auto px-4 z-10 text-center text-primary-foreground animate-fade-in">
-    <h1 className="text-5xl md:text-7xl font-bold mb-6">
-      <span className="bg-gradient-accent bg-clip-text text-transparent">
-        Exclusive Invest Industry
-      </span>
-    </h1>
-    <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
-      {t("hero.description")}
-    </p>
-    <Button
-      onClick={() => navigate("/about")}
-      size="lg"
-      className="bg-gradient-accent text-accent-foreground hover:scale-105 transition-transform duration-300 shadow-glow"
-    >
-      {t("hero.learnMore")}
-      <ArrowRight className="ml-2" />
-    </Button>
-  </div>
-</section>
+        <div className="container mx-auto px-4 z-10 text-center text-primary-foreground animate-fade-in">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6">
+            <span className="bg-gradient-accent bg-clip-text text-transparent">
+              Exclusive Invest Industry
+            </span>
+          </h1>
+          <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
+            {t("hero.description")}
+          </p>
+          <Button
+            onClick={() => navigate("/about")}
+            size="lg"
+            className="bg-gradient-accent text-accent-foreground hover:scale-105 transition-transform duration-300 shadow-glow"
+          >
+            {t("hero.learnMore")}
+            <ArrowRight className="ml-2" />
+          </Button>
+        </div>
+      </section>
 
       {/* Company Info Section */}
       <section className="py-20 bg-background">
@@ -148,34 +157,28 @@ const Home = () => {
             {t("home.ourProducts")}
           </h2>
 
-          <div className="grid md:grid-cols-2 gap-8 mb-12">
-            <Card className="overflow-hidden hover:shadow-premium transition-shadow duration-300">
-              <img
-                src={productContainers}
-                alt="Plastik idishlar"
-                className="w-full h-64 object-cover"
-              />
-              <CardContent className="p-6">
-                <h3 className="text-2xl font-bold mb-2">Plastik idishlar</h3>
-                <p className="text-muted-foreground">
-                  Turli hajm va shakllardagi idishlar
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="overflow-hidden hover:shadow-premium transition-shadow duration-300">
-              <img
-                src={productBarrels}
-                alt="Plastik bochkalar"
-                className="w-full h-64 object-cover"
-              />
-              <CardContent className="p-6">
-                <h3 className="text-2xl font-bold mb-2">Plastik bochkalar</h3>
-                <p className="text-muted-foreground">
-                  Har xil hajmdagi sifatli bochkalar
-                </p>
-              </CardContent>
-            </Card>
+          <div className="grid md:grid-cols-3 gap-8 mb-16">
+            {products.map((product, index) => (
+              <Card
+                key={index}
+                className="overflow-hidden hover:shadow-premium transition-all duration-300 hover:scale-105 animate-fade-in"
+                style={{ animationDelay: `${index * 150}ms` }}
+              >
+                <div className="relative h-64 overflow-hidden">
+                  <img
+                    src={product.image}
+                    alt={product.name}
+                    className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
+                  />
+                </div>
+                <CardContent className="p-6">
+                  <div className="flex items-center mb-3">
+                    <h3 className="text-2xl font-bold">{product.name}</h3>
+                  </div>
+                  <p className="text-muted-foreground">{product.description}</p>
+                </CardContent>
+              </Card>
+            ))}
           </div>
 
           <div className="text-center">
@@ -192,30 +195,30 @@ const Home = () => {
       </section>
 
       {/* Partners Section */}
-<section className="py-20 bg-background overflow-hidden">
-  <div className="container mx-auto px-4">
-    <h2 className="text-4xl font-bold text-center mb-12">
-      {t("home.ourPartners")}
-    </h2>
+      <section className="py-20 bg-background overflow-hidden">
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl font-bold text-center mb-12">
+            {t("home.ourPartners")}
+          </h2>
 
-    <div className="relative">
-      <div className="flex animate-[scroll_20s_linear_infinite] space-x-8">
-        {[...partners, ...partners].map((img, index) => (
-          <div
-            key={index}
-            className="flex-shrink-0 w-48 h-32 bg-card rounded-lg shadow-lg flex items-center justify-center border border-primary/10"
-          >
-            <img
-              src={img}
-              alt={`Partner ${index + 1}`}
-              className="w-full h-full object-contain p-4"
-            />
+          <div className="relative">
+            <div className="flex animate-[scroll_20s_linear_infinite] space-x-8">
+              {[...partners, ...partners].map((img, index) => (
+                <div
+                  key={index}
+                  className="flex-shrink-0 w-48 h-32 bg-card rounded-lg shadow-lg flex items-center justify-center border border-primary/10"
+                >
+                  <img
+                    src={img}
+                    alt={`Partner ${index + 1}`}
+                    className="w-full h-full object-contain p-4"
+                  />
+                </div>
+              ))}
+            </div>
           </div>
-        ))}
-      </div>
-    </div>
-  </div>
-</section>
+        </div>
+      </section>
 
       {/* Certificates Section */}
       <section className="py-20 bg-muted">
@@ -225,26 +228,28 @@ const Home = () => {
           </h2>
 
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            {/* Certificate 1 */}
             <Card className="overflow-hidden hover:shadow-premium transition-shadow duration-300">
-              <CardContent className="p-8">
-                <div className="bg-gradient-primary h-64 rounded-lg flex items-center justify-center mb-4">
-                  <div className="text-center text-primary-foreground">
-                    <Shield className="w-20 h-20 mx-auto mb-4" />
-                    <p className="text-xl font-bold">ISO 9001:2015</p>
-                    <p className="text-sm">Sifat menejmenti tizimi</p>
-                  </div>
+              <CardContent className="p-4">
+                <div className="h-100 rounded-lg overflow-hidden flex items-center justify-center bg-white">
+                  <img
+                    src={Sertifikat1}
+                    alt="Certificate 1"
+                    className="w-full h-full object-contain"
+                  />
                 </div>
               </CardContent>
             </Card>
 
+            {/* Certificate 2 */}
             <Card className="overflow-hidden hover:shadow-premium transition-shadow duration-300">
-              <CardContent className="p-8">
-                <div className="bg-gradient-primary h-64 rounded-lg flex items-center justify-center mb-4">
-                  <div className="text-center text-primary-foreground">
-                    <Shield className="w-20 h-20 mx-auto mb-4" />
-                    <p className="text-xl font-bold">O'zbekiston sertifikati</p>
-                    <p className="text-sm">Mahsulot sifati tasdiqlangan</p>
-                  </div>
+              <CardContent className="p-4">
+                <div className="h-100 rounded-lg overflow-hidden flex items-center justify-center bg-white">
+                  <img
+                    src={Sertifikat2}
+                    alt="Certificate 2"
+                    className="w-full h-full object-contain"
+                  />
                 </div>
               </CardContent>
             </Card>
