@@ -83,12 +83,12 @@
     "title": "Xizmatlar",
     "subtitle": "Keng ko'lamli professional xizmatlar",
     "ourServices": "Bizning xizmatlar",
-    "customProduction": "Maxsus buyurtma",
+    "customProduction": "TPA 90 / 120 / 230 - Kichik va mikro qismlar uchun",
     "customProductionDesc": "Mijoz talabiga ko'ra individual mahsulotlar ishlab chiqarish. Zamonaviy texnologiyalar yordamida har qanday murakkablikdagi buyurtmalarni bajaramiz.",
-    "delivery": "Yetkazib berish",
-    "deliveryDesc": "O'z logistika tizimimiz orqali O'zbekiston bo'ylab va eksport tashkilotchiligini ta'minlaymiz.",
-    "consultation": "Texnik konsultatsiya",
-    "consultationDesc": "Mutaxassislarimiz sizga eng mos mahsulotni tanlashda yordam berishadi va barcha texnik savollaringizga javob berishadi.",
+    "customProduction2": "TPA 33 / 400 / 500 - O'rta hajmdagi mahsulotlar uchun",
+    "customProductionDesc2": "O'z logistika tizimimiz orqali O'zbekiston bo'ylab va eksport tashkilotchiligini ta'minlaymiz.",
+    "customProduction3": "TPA 680 / 1300 / 3300 - Katta hajmdagi mahsulotlar uchun",
+    "customProductionDesc3": "Mutaxassislarimiz sizga eng mos mahsulotni tanlashda yordam berishadi va barcha texnik savollaringizga javob berishadi.",
     "qualityControl": "Sifat nazorati",
     "qualityControlDesc": "Barcha mahsulotlar ishlab chiqarish jarayonida qat'iy sifat nazoratidan o'tadi va xalqaro standartlarga mos keladi.",
     "modernEquipment": "Zamonaviy uskunalar",
@@ -414,5 +414,116 @@
       "title": "3, 10, 18 litrli oval chelak",
       "desc": "Oval shakldagi qulay va keng hajmli chelaklar"
     }
+  },
+  "apparations": {
+      "apparation1": {
+        "name": "Termoplast avtomat JU3300 V-6",
+        "work": "45 kg"
+      },
+      "apparation2": {
+        "name": "Termoplast avtomat ВТ 1300",
+        "work": "6 kg"
+      },
+      "apparation3": {
+        "name": "Termoplast avtomat UJ680CA",
+        "work": "3 kg"
+      },
+      "apparation4": {
+        "name": "Termoplast avtomat ВТ500-III",
+        "work": "2 kg"
+      },
+      "apparation5": {
+        "name": "Termoplast avtomat ВJ400-V6",
+        "work": "2 kg"
+      },
+      "apparation6": {
+        "name": "Termoplast avtomat BJ330-V6",
+        "work": "1.20 kg"
+      },
+      "apparation7": {
+        "name": "Termoplast avtomat BJ330-V6",
+        "work": "1.20 kg"
+      },
+      "apparation8": {
+        "name": "Termoplast avtomat ВТ320-III",
+        "work": "1 kg"
+      },
+      "apparation9": {
+        "name": "Termoplast avtomat BJ330-V6",
+        "work": "1 kg"
+      },
+      "apparation10": {
+        "name": "Termoplast avtomat ВТ320-III",
+        "work": "1 kg"
+      },
+      "apparation11": {
+        "name": "Termoplast avtomat UL/150CA",
+        "work": "0.20 kg"
+      },
+      "apparation12": {
+        "name": "Termoplast avtomat BJ90-V6",
+        "work": "0.10 kg"
+      },
+      "apparation13": {
+        "name": "Termoplast avtomat ВJ160-V6",
+        "work": "0.20 kg"
+      },
+      "apparation14": {
+        "name": "Termoplast avtomat UL/230CA",
+        "work": "0.70 g"
+      },
+      "apparation15": {
+        "name": "Termoplast avtomat UL/150CA",
+        "work": "0.20 kg"
+      },
+      "apparation16": {
+        "name": "Termoplast avtomat UL/120CA",
+        "work": "0.18 kg"
+      },
+      "apparation17": {
+        "name": "Termoplast avtomat ВJ200-V6",
+        "work": "0.60 kg"
+      },
+      "apparation18": {
+        "name": "Termoplast avtomat ВJ160-V6",
+        "work": "0.20 kg"
+      },
+      "apparation19": {
+        "name": "Termoplast avtomat ВТ200-III",
+        "work": "0.60 kg"
+      },
+      "apparation20": {
+        "name": "Termoplast avtomat UL/230CA",
+        "work": "0.70 g"
+      },
+      "apparation21": {
+        "name": "Termoplast avtomat UL/180CA",
+        "work": "0.25 kg"
+      },
+      "apparation22": {
+        "name": "Termoplast avtomat UL/150CA",
+        "work": "0.20 kg"
+      },
+      "apparation23": {
+        "name": "Termoplast avtomat UL/120CA",
+        "work": "0.18 kg"
+      },
+      "apparation24": {
+        "name": "Vydub mashinasi YF100",
+        "work": "150 L"
+      },
+      "apparation25": {
+        "name": "Vydub mashinasi",
+        "work": "1 L"
+      }
+  },
+  "apparations_words": {
+    "name": "Uskuna nomi",
+    "work": "Ishlab chiqarish quvvati",
+    "model1": "TPA 90 / 120 / 230 - Kichik va mikro qismlar uchun",
+    "model2": "TPA 330 / 400 / 500 - O'rta hajmdagi mahsulotlar uchun",
+    "model3": "TPA 680 / 1300 / 3300 - Katta hajmdagi mahsulotlar uchun"
   }
 }
+
+

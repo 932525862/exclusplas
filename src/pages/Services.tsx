@@ -3,55 +3,65 @@ import customManufacturing from "@/assets/custom-manufacturing.jpg";
 import heroImage from "@/assets/hero-image.jpg";
 import { Cog, Truck, Headphones, ClipboardCheck } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import Backvideo2 from "@/assets/backrount2.mp4";
+import apparation1 from "@/assets/apparation1.jpg";
+import apparation2 from "@/assets/apparation2.jpg";
+import apparation3 from "@/assets/apparation3.jpg";
 
 const Services = () => {
   const { t } = useTranslation();
   
   const services = [
     {
-      title: t("services.customProduction"),
-      description: t("services.customProductionDesc"),
-      icon: Cog,
-      image: customManufacturing,
+      title: t("apparations_words.model1"),
+      image: apparation1,
     },
     {
-      title: t("services.delivery"),
-      description: t("services.deliveryDesc"),
-      icon: Truck,
-      image: heroImage,
+      title: t("apparations_words.model2"),
+      image: apparation2,
     },
     {
-      title: t("services.consultation"),
-      description: t("services.consultationDesc"),
-      icon: Headphones,
-      image: customManufacturing,
-    },
-    {
-      title: t("services.qualityControl"),
-      description: t("services.qualityControlDesc"),
-      icon: ClipboardCheck,
-      image: heroImage,
+      title: t("apparations_words.model3"),
+      image: apparation3,
     },
   ];
+
+   const apparationData = Array.from({ length: 25 }, (_, i) => ({
+      name: t(`apparations.apparation${i + 1}.name`),
+      work: t(`apparations.apparation${i + 1}.work`),
+    }));
 
   return (
     <div className="min-h-screen pt-20">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-primary text-primary-foreground">
-        <div className="container mx-auto px-4 text-center">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 animate-fade-in">
+      <section className="relative h-96 flex items-center justify-center overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <video
+            className="w-full h-full object-cover"
+            autoPlay
+            loop
+            muted
+            playsInline
+          >
+            <source src={Backvideo2} type="video/mp4" />
+          </video>
+
+          {/* Updated bottom-to-top gradient */}
+          <div className="absolute inset-0 bg-gradient-to-t from-[#044e35]/100 via-[#044e35]/40 to-transparent" />
+        </div>
+
+        <div className="container mx-auto px-4 z-10 text-center text-primary-foreground">
+          <h1 className="text-5xl md:text-6xl font-bold mb-4 animate-fade-in">
             {t("services.title")}
           </h1>
-          <p className="text-xl md:text-2xl max-w-3xl mx-auto">
-            {t("services.subtitle")}
-          </p>
+          <p className="text-xl md:text-2xl">{t("services.subtitle")}</p>
         </div>
       </section>
 
       {/* Services Grid */}
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2 gap-x-4 gap-y-8">
+          <div className="grid grid-cols-3 gap-x-4 gap-y-8">
             {services.map((service, index) => (
               <Card key={index} className="overflow-hidden group">      
                 <div className="overflow-hidden">
@@ -62,14 +72,26 @@ const Services = () => {
                   />
                 </div>                
                 <CardContent>
-                  <service.icon className="w-16 h-16 text-accent mb-6" />
-                  <h3 className="text-3xl font-bold mb-4">{service.title}</h3>
-                  <p className="text-lg text-muted-foreground leading-relaxed">
-                    {service.description}
-                  </p>
+                  <h3 className="text-2xl font-bold my-4">{service.title}</h3>
                 </CardContent>
               </Card>
             ))}
+          </div>
+          <div className="flex flex-col rounded-xl max-md:mt-4 mt-16 font-medium max-w-5xl mx-auto overflow-hidden bg-slate-50">
+            <div className="grid grid-cols-8 p-3 bg-[#F9C31F]">
+              <div className="col-span-1 text-center">No</div>
+              <div className="col-span-3 text-center">{t("apparations_words.name")}</div>
+              <div className="col-span-4 text-center">{t("apparations_words.work")}</div>
+            </div>
+            {
+              apparationData.map((apparation, index) => (
+                <div className="grid grid-cols-8 p-3 border-b-[1px] border-slate-300">
+                  <div className="col-span-1 text-center">{index + 1}</div>
+                  <div className="col-span-3 text-center">{apparation.name}</div>
+                  <div className="col-span-4 text-center">{apparation.work}</div>
+                </div>
+              ))
+            }
           </div>
         </div>
       </section>
