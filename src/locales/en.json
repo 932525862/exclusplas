@@ -100,5 +100,320 @@
     "address": "Address: Tashkent city, Uzbekistan",
     "followUs": "Follow Us",
     "rights": "All rights reserved"
+  },
+  "products_data": {
+      "product1": {
+        "title": "4-Person Set (Round Table)",
+        "desc": "1 round table, 4 chairs"
+      },
+      "product2": {
+        "title": "4-Person Set (Square Table)",
+        "desc": "1 square table, 4 chairs"
+      },
+      "product3": {
+        "title": "4-Person Set (Square Table)",
+        "desc": "1 square table, 4 armchairs"
+      },
+      "product4": {
+        "title": "Chair (Euro)",
+        "desc": "Chair in Euro style"
+      },
+      "product5": {
+        "title": "Armchair (Euro)",
+        "desc": "Armchair in Euro style"
+      },
+      "product6": {
+        "title": "Stool",
+        "desc": "Standard stool"
+      },
+      "product7": {
+        "title": "Vertical Tank 200, 500, 1000 L",
+        "desc": "Large-capacity vertical tanks"
+      },
+      "product8": {
+        "title": "Vertical Tank 40–120 L",
+        "desc": "Medium-capacity vertical tanks"
+      },
+      "product9": {
+        "title": "Horizontal Tank 300 L",
+        "desc": "Horizontal tank, 300 liters"
+      },
+      "product10": {
+        "title": "Horizontal Tank 500, 1000 L",
+        "desc": "Horizontal tanks, 500–1000 liters"
+      },
+      "product11": {
+        "title": "Laundry Basket",
+        "desc": "Standard laundry basket"
+      },
+      "product12": {
+        "title": "Laundry Basket with Lid",
+        "desc": "Laundry basket with lid"
+      },
+      "product13": {
+        "title": "Garbage Container 120 L",
+        "desc": "Garbage container, 120 liters"
+      },
+      "product14": {
+        "title": "Container Set 'England'",
+        "desc": "Plastic container set 'England'"
+      },
+      "product15": {
+        "title": "Container Set 'Antalya'",
+        "desc": "Container set 'Antalya'"
+      },
+      "product16": {
+        "title": "Container Set 'China'",
+        "desc": "Container set 'China'"
+      },
+      "product17": {
+        "title": "Container Set of 4 'Turkey'",
+        "desc": "Set of 4 containers 'Turkey'"
+      },
+      "product18": {
+        "title": "Square Container Set 'Bodrum'",
+        "desc": "Square container set 'Bodrum'"
+      },
+      "product19": {
+        "title": "Container Set 'Italy'",
+        "desc": "Plastic container set 'Italy'"
+      },
+      "product20": {
+        "title": "Oval Container Set 'Bodrum'",
+        "desc": "Oval container set 'Bodrum'"
+      },
+      "product21": {
+        "title": "Container Set of 4",
+        "desc": "Standard set of 4 containers"
+      },
+      "product22": {
+        "title": "Container Set of 3 'Turkey'",
+        "desc": "Set of 3 containers 'Turkey'"
+      },
+      "product23": {
+        "title": "Round Bread Box",
+        "desc": "Round plastic bread box"
+      },
+      "product24": {
+        "title": "Bread Box 'Baton'",
+        "desc": "Bread box for storing a loaf"
+      },
+      "product25": {
+        "title": "Mesh Bread Box",
+        "desc": "Bread box with ventilation mesh"
+      },
+      "product26": {
+        "title": "Baby Bathtub & Accessories Set",
+        "desc": "Baby bathtub and accessories set"
+      },
+      "product27": {
+        "title": "Baby Bathtub",
+        "desc": "Plastic bathtub for children"
+      },
+      "product28": {
+        "title": "Pot 'Panda'",
+        "desc": "Children's potty with 'Panda' design"
+      },
+      "product29": {
+        "title": "Pot 'Simba'",
+        "desc": "Children's potty with 'Simba' design"
+      },
+      "product30": {
+        "title": "Bucket 'F'",
+        "desc": "Household bucket model 'F'"
+      },
+      "product31": {
+        "title": "Bath Lounger",
+        "desc": "Lounger for bathing infants"
+      },
+      "product32": {
+        "title": "Large Scoop",
+        "desc": "Large household scoop"
+      },
+      "product33": {
+        "title": "Basin 8 L",
+        "desc": "Plastic basin, 8 liters"
+      },
+      "product34": {
+        "title": "Set 'Kosa'",
+        "desc": "Dishware set 'Kosa' series"
+      },
+      "product35": {
+        "title": "Set 'Kosa'",
+        "desc": "Set of plastic products 'Kosa' series"
+      },
+      "product36": {
+        "title": "Salad Bowl 'Fridge'",
+        "desc": "Salad bowl for fridge storage"
+      },
+      "product37": {
+        "title": "Square Container",
+        "desc": "Square container for food"
+      },
+      "product38": {
+        "title": "Salad Bowl Set of 4",
+        "desc": "Set of 4 salad bowls"
+      },
+      "product39": {
+        "title": "Container Set 1, 2, 3.5, 5.5, 10 L",
+        "desc": "Set of containers in various sizes"
+      },
+      "product40": {
+        "title": "Cup",
+        "desc": "Plastic cup"
+      },
+      "product41": {
+        "title": "Flower Glass",
+        "desc": "Plastic glass with floral ornament"
+      },
+      "product42": {
+        "title": "Glass (Japan)",
+        "desc": "Glass in Japanese style"
+      },
+      "product43": {
+        "title": "Small Thermos",
+        "desc": "Small thermos for drinks"
+      },
+      "product44": {
+        "title": "Large Thermos",
+        "desc": "Large thermos for storing drinks"
+      },
+      "product45": {
+        "title": "Sugar Bowl",
+        "desc": "Plastic sugar bowl"
+      },
+      "product46": {
+        "title": "Small Scoop",
+        "desc": "Small household scoop"
+      },
+      "product47": {
+        "title": "Large Scoop",
+        "desc": "Large household scoop"
+      },
+      "product48": {
+        "title": "Baskets",
+        "desc": "Various household baskets"
+      },
+      "product49": {
+        "title": "Funnel for Jar",
+        "desc": "Funnel for filling jars"
+      },
+      "product50": {
+        "title": "Oil Container",
+        "desc": "Container for storing oil"
+      },
+      "product51": {
+        "title": "Set for Dry Products",
+        "desc": "Set for storing flour, sugar, and other dry products"
+      },
+      "product52": {
+        "title": "Bathroom Mirror Set",
+        "desc": "Mirror accessory set for bathroom"
+      },
+      "product53": {
+        "title": "Bathroom Mirror Set",
+        "desc": "Mirror and accessories set for bathroom"
+      },
+      "product54": {
+        "title": "Mesh Trash Can",
+        "desc": "Trash can with ventilation mesh"
+      },
+      "product55": {
+        "title": "Vegetable Shelf",
+        "desc": "Shelf for storing vegetables and fruits"
+      },
+      "product56": {
+        "title": "Pitcher",
+        "desc": "Plastic water pitcher"
+      },
+      "product57": {
+        "title": "Container Set",
+        "desc": "Set of plastic containers of different volumes"
+      },
+      "product58": {
+        "title": "Fly Swatter",
+        "desc": "Plastic fly swatter"
+      },
+      "product59": {
+        "title": "Dustpan",
+        "desc": "Plastic dustpan for cleaning"
+      },
+      "product60": {
+        "title": "Hanger 'Cobra'",
+        "desc": "Clothes hanger in 'Cobra' shape"
+      },
+      "product61": {
+        "title": "Flat Hanger",
+        "desc": "Flat clothes hanger"
+      },
+      "product62": {
+        "title": "Hanger 'Cobra 2'",
+        "desc": "Hanger model 'Cobra 2'"
+      },
+      "product63": {
+        "title": "Hanger 'Romashka'",
+        "desc": "Durable and convenient hanger for home use"
+      },
+      "product64": {
+        "title": "Basin 90 & 120 L",
+        "desc": "Large basins for water or food"
+      },
+      "product65": {
+        "title": "5 L Container",
+        "desc": "5-liter container for beverages or household liquids"
+      },
+      "product66": {
+        "title": "Basin 10, 16, 22, 30 L",
+        "desc": "Multipurpose basins of various volumes"
+      },
+      "product67": {
+        "title": "Oval Basin 28 L",
+        "desc": "Oval basin for kitchen and household needs"
+      },
+      "product68": {
+        "title": "Basin 'D' 30 L",
+        "desc": "Basin model 'D', 30 liters, made of thick plastic"
+      },
+      "product69": {
+        "title": "Basin 'EXC' 28 L",
+        "desc": "Modern EXC basin, 28 liters"
+      },
+      "product70": {
+        "title": "Basin 2, 4, 6, 8 L",
+        "desc": "Daily-use basins of various volumes"
+      },
+      "product71": {
+        "title": "Universal Barrel 40, 60, 80 L",
+        "desc": "Large barrels for water, food, and technical purposes"
+      },
+      "product72": {
+        "title": "Bio-Toilet",
+        "desc": "Convenient bio-toilet for outdoor or field use"
+      },
+      "product73": {
+        "title": "Bucket 'Dolphin' 10 L",
+        "desc": "10-liter household bucket with handle"
+      },
+      "product74": {
+        "title": "Bucket 'Euro' 12 L",
+        "desc": "12-liter Euro-style sturdy bucket"
+      },
+      "product75": {
+        "title": "Bucket 'F' 5, 8, 10, 12 L",
+        "desc": "Household buckets model F of various volumes"
+      },
+      "product76": {
+        "title": "Bucket 3 L",
+        "desc": "Small and convenient 3-liter bucket"
+      },
+      "product77": {
+        "title": "Bucket 'F' 10, 14, 15, 18 L",
+        "desc": "Large household buckets model F"
+      },
+      "product78": {
+        "title": "Oval Bucket 3, 10, 18 L",
+        "desc": "Oval buckets of various volumes, convenient and spacious"
+      }
   }
 }
+

@@ -100,5 +100,319 @@
     "address": "Manzil: Toshkent shahar, O'zbekiston",
     "followUs": "Bizni kuzatib boring",
     "rights": "Barcha huquqlar himoyalangan"
+  },
+  "products_data": {
+    "product1": {
+      "title": "4 o‘rinli to‘plam (dumaloq stol)",
+      "desc": "1 ta dumaloq stol, 4 ta stul"
+    },
+    "product2": {
+      "title": "4 o‘rinli to‘plam (kvadrat stol)",
+      "desc": "1 ta kvadrat stol, 4 ta stul"
+    },
+    "product3": {
+      "title": "4 o‘rinli to‘plam (kvadrat stol)",
+      "desc": "1 ta kvadrat stol, 4 ta kreslo"
+    },
+    "product4": {
+      "title": "Stul (Yevro)",
+      "desc": "Yevro uslubidagi stul"
+    },
+    "product5": {
+      "title": "Kreslo (Yevro)",
+      "desc": "Yevro uslubidagi kreslo"
+    },
+    "product6": {
+      "title": "Taburetka",
+      "desc": "Oddiy taburetka modeli"
+    },
+    "product7": {
+      "title": "Vertikal bak (200, 500, 1000 L)",
+      "desc": "Katta hajmdagi vertikal baklar"
+    },
+    "product8": {
+      "title": "Vertikal bak (40–120 L)",
+      "desc": "O‘rta hajmdagi vertikal baklar"
+    },
+    "product9": {
+      "title": "Gorizontal bak 300 L",
+      "desc": "300 litrli gorizontal bak"
+    },
+    "product10": {
+      "title": "Gorizontal bak (500, 1000 L)",
+      "desc": "500–1000 litrli gorizontal baklar"
+    },
+    "product11": {
+      "title": "Kirlar savati",
+      "desc": "Oddiy kirlar savati"
+    },
+    "product12": {
+      "title": "Qopqoqli kirlar savati",
+      "desc": "Qopqoqqa ega kirlar savati"
+    },
+    "product13": {
+      "title": "Chiqindi konteyneri 120 L",
+      "desc": "120 litrli chiqindi konteyner"
+    },
+    "product14": {
+      "title": "“Angliya” konteynerlar to‘plami",
+      "desc": "‘Angliya’ nomli plastik konteynerlar to‘plami"
+    },
+    "product15": {
+      "title": "“Antaliya” konteynerlar to‘plami",
+      "desc": "‘Antaliya’ konteynerlar to‘plami"
+    },
+    "product16": {
+      "title": "“Xitoy” konteynerlar to‘plami",
+      "desc": "‘Xitoy’ nomli konteynerlar to‘plami"
+    },
+    "product17": {
+      "title": "4 dona “Turkiya” konteynerlar to‘plami",
+      "desc": "4 dona konteynerdan iborat to‘plam"
+    },
+    "product18": {
+      "title": "Kvadrat konteynerlar to‘plami “Bodrum”",
+      "desc": "Kvadrat shakldagi ‘Bodrum’ konteynerlar to‘plami"
+    },
+    "product19": {
+      "title": "“Italiya” konteynerlar to‘plami",
+      "desc": "‘Italiya’ nomli plastik konteynerlar to‘plami"
+    },
+    "product20": {
+      "title": "Oval konteynerlar to‘plami “Bodrum”",
+      "desc": "Oval shakldagi ‘Bodrum’ konteynerlar to‘plami"
+    },
+    "product21": {
+      "title": "4 dona konteynerlar to‘plami",
+      "desc": "4 ta konteynerdan iborat standart to‘plam"
+    },
+    "product22": {
+      "title": "3 dona konteynerlar to‘plami “Turkiya”",
+      "desc": "‘Turkiya’ modeli bo‘yicha 3 dona konteyner"
+    },
+    "product23": {
+      "title": "Dumaloq non saqlagich",
+      "desc": "Dumaloq shakldagi plastik non saqlash qutisi"
+    },
+    "product24": {
+      "title": "‘Baton’ non saqlagich",
+      "desc": "Baton non uchun mo‘ljallangan non saqlagich"
+    },
+    "product25": {
+      "title": "Setkali non saqlagich",
+      "desc": "Havo o‘tadigan setkali non saqlagich"
+    },
+    "product26": {
+      "title": "Bolalar vanna to‘plami",
+      "desc": "Bolalar uchun vannadan iborat to‘plam"
+    },
+    "product27": {
+      "title": "Bolalar vannasi",
+      "desc": "Bolalar uchun mo‘ljallangan plastik vanna"
+    },
+    "product28": {
+      "title": "‘Panda’ bolalar gorshogi",
+      "desc": "Panda dizaynidagi bolalar uchun gorшok"
+    },
+    "product29": {
+      "title": "‘Simba’ bolalar gorshogi",
+      "desc": "Simba dizaynidagi bolalar uchun gorшok"
+    },
+    "product30": {
+      "title": "‘F’ chelak",
+      "desc": "Uy-ro‘zg‘or uchun ‘F’ modeli chelak"
+    },
+    "product31": {
+      "title": "Vanna uchun yotqich",
+      "desc": "Chaqaloqlarni yuvish uchun yotqich"
+    },
+    "product32": {
+      "title": "Katta kovush",
+      "desc": "Katta hajmdagi xo‘jalik kovushi"
+    },
+    "product33": {
+      "title": "8 litrli tovochka",
+      "desc": "8 litr sig‘imli plastik tovochka"
+    },
+    "product34": {
+      "title": "‘Kosa’ to‘plami",
+      "desc": "Kosa turidagi idishlar to‘plami"
+    },
+    "product35": {
+      "title": "‘Kosa’ to‘plami",
+      "desc": "Kosa dizaynidagi idishlar to‘plami"
+    },
+    "product36": {
+      "title": "‘Xolodilnik’ salatnitsa",
+      "desc": "Sovutkichda saqlash uchun maxsus salat idishi"
+    },
+    "product37": {
+      "title": "Kvadrat konteyner",
+      "desc": "Kvadrat shakldagi oziq-ovqat konteyneri"
+    },
+    "product38": {
+      "title": "4 dona salat idishlari",
+      "desc": "4 ta salat idishidan iborat to‘plam"
+    },
+    "product39": {
+      "title": "1, 2, 3.5, 5.5, 10 L konteynerlar",
+      "desc": "Hajmlari turlicha bo‘lgan konteynerlar to‘plami"
+    },
+    "product40": {
+      "title": "Chashka",
+      "desc": "Plastik ichimlik chashkasi"
+    },
+    "product41": {
+      "title": "Gul naqshli bokal",
+      "desc": "Gul naqshi tushirilgan plastik bokal"
+    },
+    "product42": {
+      "title": "‘Yaponiya’ bokali",
+      "desc": "Yaponcha uslubdagi bokal"
+    },
+    "product43": {
+      "title": "Kichik termos",
+      "desc": "Kichik hajmdagi ichimlik termos"
+    },
+    "product44": {
+      "title": "Katta termos",
+      "desc": "Katta sig‘imli ichimlik termos"
+    },
+    "product45": {
+      "title": "Shakar idishi",
+      "desc": "Shakar saqlash uchun idish"
+    },
+    "product46": {
+      "title": "Kichik kovush",
+      "desc": "Kichik o‘lchamli xo‘jalik kovushi"
+    },
+    "product47": {
+      "title": "Katta kovush",
+      "desc": "Katta o‘lchamli xo‘jalik kovushi"
+    },
+    "product48": {
+      "title": "Savatchalar",
+      "desc": "Uy-ro‘zg‘or uchun turli savatchalar"
+    },
+    "product49": {
+      "title": "Bankaga mo‘ljallangan voronka",
+      "desc": "Konserva bankalari uchun maxsus voronka"
+    },
+    "product50": {
+      "title": "Yog‘ uchun konteyner",
+      "desc": "Yegulik yog‘ini saqlash uchun konteyner"
+    },
+    "product51": {
+      "title": "Quruq mahsulotlar to‘plami",
+      "desc": "Un, shakar va boshqa quruq mahsulotlar uchun to‘plam"
+    },
+    "product52": {
+      "title": "Sanuzel uchun oynali to‘plam",
+      "desc": "Sanuzel uchun oynali aksessuarlar to‘plami"
+    },
+    "product53": {
+      "title": "Sanuzel uchun oynali to‘plam",
+      "desc": "Sanuzel uchun mo‘ljallangan oynali to‘plam"
+    },
+    "product54": {
+      "title": "Setkali axlat qutisi",
+      "desc": "Setkali ventilyatsiya bilan axlat qutisi"
+    },
+    "product55": {
+      "title": "Sabzavot polkasi",
+      "desc": "Sabzavot va mevalarni saqlash uchun polka"
+    },
+    "product56": {
+      "title": "Kuvshin",
+      "desc": "Suv saqlash uchun plastik kuvshin"
+    },
+    "product57": {
+      "title": "Idishlar to‘plami",
+      "desc": "Turli hajmdagi idishlardan iborat to‘plam"
+    },
+    "product58": {
+      "title": "Pashsha uradigan",
+      "desc": "Pashsha va hasharotlarga qarshi plastik uradigan"
+    },
+    "product59": {
+      "title": "Sovok",
+      "desc": "Uy tozalash uchun plastik sovok"
+    },
+    "product60": {
+      "title": "‘Kobra’ osma ilgich",
+      "desc": "‘Kobra’ shaklidagi kiyim ilgichi"
+    },
+    "product61": {
+      "title": "Yassi ilgich",
+      "desc": "Yassi shakldagi kiyim ilgichi"
+    },
+    "product62": {
+      "title": "‘Kobra 2’ osma ilgich",
+      "desc": "‘Kobra’ modelining ikkinchi turi ilgichi"
+    },
+    "product63": {
+      "title": "“Romaschka” ilgich",
+      "desc": "Uy uchun mo‘ljallangan mustahkam va qulay kiyim ilgichi"
+    },
+    "product64": {
+      "title": "90 va 120 litrli tovoqlar",
+      "desc": "Katta hajmli suv yoki oziq-ovqat mahsulotlari uchun tovoqlar"
+    },
+    "product65": {
+      "title": "5 litrli idish",
+      "desc": "Ichimlik yoki maishiy suyuqliklar uchun 5 litrli idish"
+    },
+    "product66": {
+      "title": "10, 16, 22, 30 litrli tovoqlar",
+      "desc": "Turli hajmlarda ishlab chiqarilgan ko‘p funksional tovoqlar"
+    },
+    "product67": {
+      "title": "28 litrli oval tovoq",
+      "desc": "Oshxona va maishiy ehtiyojlar uchun oval shakldagi tovoq"
+    },
+    "product68": {
+      "title": "“D” 30 litrli tovoq",
+      "desc": "Qalin plastikdan tayyorlangan 30 litrli “D” modeli tovoq"
+    },
+    "product69": {
+      "title": "28 litrli “EXC” tovoq",
+      "desc": "Zamonaviy dizayndagi 28 litrli EXC tovoqi"
+    },
+    "product70": {
+      "title": "2, 4, 6, 8 litrli tovoqlar",
+      "desc": "Har xil hajmlarda ishlab chiqarilgan kundalik foydalanish uchun tovoqlar"
+    },
+    "product71": {
+      "title": "40, 60, 80 litrli universal bochka",
+      "desc": "Suv, oziq-ovqat va texnik maqsadlar uchun mo‘ljallangan katta bochkalar"
+    },
+    "product72": {
+      "title": "Bio-unitaz",
+      "desc": "Tabiat qo‘ynida yoki dala sharoitida foydalanishga qulay bio-unitaz"
+    },
+    "product73": {
+      "title": "10 litrli “Delfin” chelak",
+      "desc": "Qulay tutqichli 10 litrli maishiy chelak"
+    },
+    "product74": {
+      "title": "12 litrli “Yevro” chelak",
+      "desc": "12 litrli Yevro uslubidagi mustahkam chelak"
+    },
+    "product75": {
+      "title": "5, 8, 10, 12 litrli “F” chelak",
+      "desc": "Turli hajmlardagi F modeli maishiy chelaklar"
+    },
+    "product76": {
+      "title": "3 litrli chelak",
+      "desc": "Kichik hajmli, yengil va qulay 3 litrli chelak"
+    },
+    "product77": {
+      "title": "10, 14, 15, 18 litrli “F” chelak",
+      "desc": "F modeli katta sig‘imli maishiy chelaklar"
+    },
+    "product78": {
+      "title": "3, 10, 18 litrli oval chelak",
+      "desc": "Oval shakldagi qulay va keng hajmli chelaklar"
+    }
   }
 }

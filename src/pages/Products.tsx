@@ -2,33 +2,18 @@ import { Card, CardContent } from "@/components/ui/card";
 import productContainers from "@/assets/product-containers.jpg";
 import productBarrels from "@/assets/product-barrels.jpg";
 import customManufacturing from "@/assets/custom-manufacturing.jpg";
-import { Package, Box, Boxes } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { getImage } from "@/lib/getImage";
 
 const Products = () => {
   const { t } = useTranslation();
+    
+  const products = Array.from({ length: 78 }, (_, i) => ({
+    name: t(`products_data.product${i + 1}.title`),
+    description: t(`products_data.product${i + 1}.desc`),
+    image: getImage(`${i + 1}.png`),
+  }));
   
-  const products = [
-    {
-      name: t("products.containers"),
-      description: t("products.containersDesc"),
-      image: productContainers,
-      icon: Package,
-    },
-    {
-      name: t("products.barrels"),
-      description: t("products.barrelsDesc"),
-      image: productBarrels,
-      icon: Box,
-    },
-    {
-      name: t("products.custom"),
-      description: t("products.customDesc"),
-      image: customManufacturing,
-      icon: Boxes,
-    },
-  ];
-
   const categories = [
     t("products.household"),
     t("products.industrial"),
@@ -73,7 +58,6 @@ const Products = () => {
                 </div>
                 <CardContent className="p-6">
                   <div className="flex items-center mb-3">
-                    <product.icon className="w-8 h-8 text-accent mr-3" />
                     <h3 className="text-2xl font-bold">{product.name}</h3>
                   </div>
                   <p className="text-muted-foreground">{product.description}</p>
