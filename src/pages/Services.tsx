@@ -60,8 +60,8 @@ const Services = () => {
 
       {/* Services Grid */}
       <section className="py-20 bg-background">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-3 gap-x-4 gap-y-8">
+        <div className="container mx-auto px-4 overflow-hidden">
+          <div className="grid grid-cols-3 gap-x-4 gap-y-8 max-lg:grid-cols-2 max-md:grid-cols-1">
             {services.map((service, index) => (
               <Card key={index} className="overflow-hidden group">      
                 <div className="overflow-hidden">
@@ -77,22 +77,29 @@ const Services = () => {
               </Card>
             ))}
           </div>
-          <div className="flex flex-col rounded-xl max-md:mt-4 mt-16 font-medium max-w-5xl mx-auto overflow-hidden bg-slate-50">
-            <div className="grid grid-cols-8 p-3 bg-[#F9C31F]">
-              <div className="col-span-1 text-center">No</div>
-              <div className="col-span-3 text-center">{t("apparations_words.name")}</div>
-              <div className="col-span-4 text-center">{t("apparations_words.work")}</div>
-            </div>
-            {
-              apparationData.map((apparation, index) => (
-                <div className="grid grid-cols-8 p-3 border-b-[1px] border-slate-300">
-                  <div className="col-span-1 text-center">{index + 1}</div>
-                  <div className="col-span-3 text-center">{apparation.name}</div>
-                  <div className="col-span-4 text-center">{apparation.work}</div>
+          <div className="flex flex-col  max-md:mt-6 mt-16 font-medium max-w-5xl mx-auto bg-slate-50 overflow-hidden rounded-xl">
+            <div className="max-md:overflow-x-auto">
+              <div className="min-w-[600px]">
+                <div className="grid grid-cols-8 p-3 bg-[#F9C31F]">
+                  <div className="col-span-1 text-center">No</div>
+                  <div className="col-span-3 text-center">{t("apparations_words.name")}</div>
+                  <div className="col-span-4 text-center">{t("apparations_words.work")}</div>
                 </div>
-              ))
-            }
+
+                {apparationData.map((apparation, index) => (
+                  <div
+                    key={index}
+                    className="grid grid-cols-8 p-3 border-b-[1px] border-slate-300"
+                  >
+                    <div className="col-span-1 text-center">{index + 1}</div>
+                    <div className="col-span-3 text-center">{apparation.name}</div>
+                    <div className="col-span-4 text-center">{apparation.work}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
+
         </div>
       </section>
 
