@@ -44,7 +44,7 @@ const Footer = () => {
             <h4 className="text-xl font-semibold mb-4">{t("footer.followUs")}</h4>
             <div className="flex space-x-4">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/exclusiveplast?igsh=YTA5cXo5ODFzczVo&utm_source=ig_contact_invite"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-accent rounded-full hover:scale-110 transition-transform duration-300"
@@ -53,7 +53,7 @@ const Footer = () => {
                 <Instagram size={24} className="text-accent-foreground" />
               </a>
               <a
-                href="https://t.me"
+                href="https://t.me/exclusiveplastuz"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-accent rounded-full hover:scale-110 transition-transform duration-300"
