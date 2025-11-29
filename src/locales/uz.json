@@ -92,7 +92,16 @@
     "qualityControl": "Sifat nazorati",
     "qualityControlDesc": "Barcha mahsulotlar ishlab chiqarish jarayonida qat'iy sifat nazoratidan o'tadi va xalqaro standartlarga mos keladi.",
     "modernEquipment": "Zamonaviy uskunalar",
-    "equipmentDesc": "Biz eng yangi texnologiyalar va yuqori sifatli uskunalardan foydalanamiz"
+    "equipmentDesc": "Biz eng yangi texnologiyalar va yuqori sifatli uskunalardan foydalanamiz",
+    "uskuna": "Zamonaviy uskunalar",
+    "uskuna1": "Yuqori texnologiyali ishlab chiqarish",
+    "uskuna2": "Bizning korxonamiz eng zamonaviy uskunalar bilan jihozlangan. Bu bizga yuqori sifatli mahsulotlarni tez va samarali ishlab chiqarish imkonini beradi.",
+    "uskuna3": "Barcha uskunalar muntazam ravishda texnik xizmat ko'rsatiladi va yangilanadi, bu esa ishlab chiqarish jarayonining uzluksizligini ta'minlaydi.",
+    "uskuna4": "Avtomatlashtirilgan ishlab chiqarish liniyalari",
+    "uskuna5": "Zamonaviy qoliplash uskunalari",
+    "uskuna6": "Sifat nazorati tizimlari",
+    "uskuna7": "Ekologik xavfsiz texnologiyalar"
+    
   },
   "footer": {
     "about": "EXCLUSIVE PLAST - O'zbekistondagi eng yirik plastik mahsulotlar ishlab chiqaruvchilaridan biri. 2005-yildan beri bozorda.",

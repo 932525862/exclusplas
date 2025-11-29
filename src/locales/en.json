@@ -8,522 +8,528 @@
   },
   "hero": {
     "title": "EXCLUSIVE PLAST",
-    "subtitle": "High Quality Plastic Products Manufacturer",
-    "description": "With modern technologies and a professional team, we fully meet customer needs",
-    "learnMore": "Learn More"
+    "subtitle": "High-quality plastic products manufacturer",
+    "description": "We fully satisfy customer needs with modern technologies and a professional team",
+    "learnMore": "Learn more"
   },
   "about": {
     "title": "About Us",
     "subtitle": "On the path of quality and innovation",
     "history": "Company History",
-    "historyText1": "Exclusive Invest Industry company started its operations in 2005 and achieved unprecedented success in a short time. The 'EXCLUSIVE PLAST' brand is one of the largest manufacturers of plastic products in Uzbekistan.",
-    "historyText2": "Thanks to our own production, we offer our products at lower prices than market prices. However, this does not affect the quality of our products. All products have quality system certificates issued by Uzstandart authorities and fully comply with international standards.",
-    "historyText3": "'Exclusive Plast' company is considered one of the leading companies in Uzbekistan and CIS countries. Today, our company delivers its products to the world market based on export contracts with several countries.",
-    "historyText4": "Every year, our company's specialists visit foreign countries for professional development and experience exchange. To date, more than 200 qualified employees work in our company.",
+    "historyText1": "Exclusive Invest Industry began its operations in 2005, and today the “EXCLUSIVE PLAST” brand is one of the largest manufacturers of plastic products in Uzbekistan.",
+    "historyText2": "Since we manufacture products ourselves, we offer them at prices lower than the market. However, this does not affect the quality of our products. All products are certified by the Uzstandard authorities and fully comply with international standards.",
+    "historyText3": "“Exclusive Plast” is one of the leading manufacturers in Uzbekistan and the CIS countries. The company has nearly 10,000 square meters of production area, manufactures over 200 types of products, and has an annual production capacity of approximately 3,000 tons. Currently, more than 150 qualified employees work at the enterprise.",
+    "historyText4": "Today the company regularly supplies its products to the world market under export contracts with several countries.",
     "quality": "Quality",
     "qualityDesc": "High quality is our main principle",
     "team": "Team",
-    "teamDesc": "Over 200 qualified employees",
+    "teamDesc": "Over 150 qualified employees",
     "mission": "Mission",
-    "missionDesc": "Fully meeting customer needs",
-    "growth": "Growth",
+    "missionDesc": "To fully satisfy customer needs",
+    "growth": "Development",
     "growthDesc": "Continuous innovation and improvement",
-    "yearsExperience": "Years of Experience",
-    "productTypes": "Product Types",
-    "happyClients": "Happy Clients",
-    "qualityGuarantee": "Quality Guarantee"
+    "yearsExperience": "Years of experience",
+    "productTypes": "Product types",
+    "happyClients": "Satisfied clients",
+    "qualityGuarantee": "Quality guarantee"
   },
   "home": {
-    "aboutCompany": "About Company",
-    "aboutTitle": "EXCLUSIVE PLAST - Guarantee of Quality and Reliability",
-    "aboutDesc": "Since 2005, we have been operating in the field of plastic products manufacturing. One of the leading companies in Uzbekistan and CIS countries.",
-    "ourProducts": "Our Products",
-    "productsTitle": "High Quality Plastic Products",
-    "productsDesc": "We produce more than 30 types of products and manufacture special products to order",
-    "learnMore": "Learn More",
-    "ourPartners": "Our Partners",
+    "aboutCompany": "About the company",
+    "aboutTitle": "EXCLUSIVE PLAST - Guarantee of quality and trust",
+    "aboutDesc": "We have been operating in the plastic products manufacturing sector since 2005. We are one of the leading companies in Uzbekistan and the CIS countries.",
+    "ourProducts": "Our products",
+    "productsTitle": "High-quality plastic products",
+    "productsDesc": "We produce more than 30 types of products and manufacture custom orders on request",
+    "learnMore": "Learn more",
+    "ourPartners": "Our partners",
     "certificates": "Certificates",
-    "certificatesDesc": "All products are certified by Uzstandart authorities and meet international standards",
-    "contactUs": "Contact Us",
-    "contactDesc": "If you have any questions or suggestions, contact us",
-    "name": "Your Name",
-    "phone": "Your Phone Number",
-    "email": "Your Email",
-    "message": "Your Message",
+    "certificatesDesc": "All products are certified by Uzstandard authorities and comply with international standards",
+    "contactUs": "Contact us",
+    "contactDesc": "If you have questions or proposals, get in touch with us",
+    "name": "Your name",
+    "phone": "Your phone number",
+    "email": "Your email",
+    "message": "Your message",
     "send": "Send"
   },
   "products": {
     "title": "Products",
-    "subtitle": "High Quality Plastic Products",
-    "mainProducts": "Main Products",
-    "containers": "Plastic Containers",
-    "containersDesc": "High-quality plastic containers of various sizes and shapes",
-    "barrels": "Plastic Barrels",
+    "subtitle": "High-quality plastic products",
+    "mainProducts": "Main products",
+    "containers": "Plastic containers",
+    "containersDesc": "High-quality plastic containers in various sizes and shapes",
+    "barrels": "Plastic barrels",
     "barrelsDesc": "Barrels for industrial and household needs",
-    "custom": "Custom Orders",
-    "customDesc": "Individual production according to customer requirements",
-    "categories": "Product Categories",
-    "household": "Household Items",
-    "householdDesc": "Plastic products for daily use",
-    "industrial": "Industrial Products",
+    "custom": "Custom orders",
+    "customDesc": "Individual manufacturing according to customer requirements",
+    "categories": "Product categories",
+    "household": "Household items",
+    "householdDesc": "Plastic products for everyday use",
+    "industrial": "Industrial products",
     "industrialDesc": "Durable products for industrial needs",
-    "packaging": "Packaging Products",
+    "packaging": "Packaging products",
     "packagingDesc": "Solutions for various types of packaging",
-    "advantages": "Our Advantages",
-    "highQuality": "High Quality",
+    "advantages": "Our advantages",
+    "highQuality": "High quality",
     "highQualityDesc": "Modern equipment and technologies",
-    "affordablePrice": "Affordable Prices",
+    "affordablePrice": "Affordable prices",
     "affordablePriceDesc": "Directly from the manufacturer",
-    "customOrder": "Individual Approach",
-    "customOrderDesc": "Any special order",
-    "fastDelivery": "Fast Delivery",
-    "fastDeliveryDesc": "Own logistics system"
+    "customOrder": "Individual approach",
+    "customOrderDesc": "Any custom order",
+    "fastDelivery": "Fast delivery",
+    "fastDeliveryDesc": "Through our own logistics system"
   },
   "services": {
     "title": "Services",
-    "subtitle": "Wide Range of Professional Services",
-    "ourServices": "Our Services",
-    "customProduction": "Custom Order",
-    "customProductionDesc": "Production of individual products according to customer requirements. Using modern technologies, we fulfill orders of any complexity.",
-    "delivery": "Delivery",
-    "deliveryDesc": "We provide logistics throughout Uzbekistan and organize exports through our own logistics system.",
-    "consultation": "Technical Consultation",
-    "consultationDesc": "Our specialists will help you choose the most suitable product and answer all technical questions.",
-    "qualityControl": "Quality Control",
-    "qualityControlDesc": "All products undergo strict quality control during production and meet international standards.",
-    "modernEquipment": "Modern Equipment",
-    "equipmentDesc": "We use the latest technologies and high-quality equipment"
+    "subtitle": "Comprehensive professional services",
+    "ourServices": "Our services",
+    "customProduction": "TPA 90 / 120 / 230 - For small and micro parts",
+    "customProductionDesc": "Individual product manufacturing according to customer requirements. We handle orders of any complexity using modern technologies.",
+    "customProduction2": "TPA 33 / 400 / 500 - For medium-sized products",
+    "customProductionDesc2": "We provide delivery across Uzbekistan and organize exports through our logistics system.",
+    "customProduction3": "TPA 680 / 1300 / 3300 - For large products",
+    "customProductionDesc3": "Our specialists will help you choose the most suitable product and answer all your technical questions.",
+    "qualityControl": "Quality control",
+    "qualityControlDesc": "All products undergo strict quality control during the production process and meet international standards.",
+    "modernEquipment": "Modern equipment",
+    "equipmentDesc": "We use the latest technologies and high-quality equipment",
+    "uskuna": "Modern equipment",
+    "uskuna1": "High-tech production",
+    "uskuna2": "Our facility is equipped with the most modern machines. This enables us to produce high-quality products quickly and efficiently.",
+    "uskuna3": "All equipment is regularly maintained and upgraded, ensuring uninterrupted production.",
+    "uskuna4": "Automated production lines",
+    "uskuna5": "Modern molding equipment",
+    "uskuna6": "Quality control systems",
+    "uskuna7": "Environmentally safe technologies"
   },
   "footer": {
-    "about": "EXCLUSIVE PLAST - one of the largest manufacturers of plastic products in Uzbekistan. In the market since 2005.",
+    "about": "EXCLUSIVE PLAST is one of the largest plastic product manufacturers in Uzbekistan. Operating since 2005.",
     "contact": "Contact",
-    "address": "Address: Tashkent city, Uzbekistan",
-    "followUs": "Follow Us",
+    "address": "Address: Uzbekistan, Tashkent region, Zangiota district, O'rtaovul KFY Katta Chinor neighborhood",
+    "followUs": "Follow us",
     "rights": "All rights reserved"
   },
   "products_data": {
-      "product1": {
-        "title": "4-Person Set (Round Table)",
-        "desc": "1 round table, 4 chairs"
-      },
-      "product2": {
-        "title": "4-Person Set (Square Table)",
-        "desc": "1 square table, 4 chairs"
-      },
-      "product3": {
-        "title": "4-Person Set (Square Table)",
-        "desc": "1 square table, 4 armchairs"
-      },
-      "product4": {
-        "title": "Chair (Euro)",
-        "desc": "Chair in Euro style"
-      },
-      "product5": {
-        "title": "Armchair (Euro)",
-        "desc": "Armchair in Euro style"
-      },
-      "product6": {
-        "title": "Stool",
-        "desc": "Standard stool"
-      },
-      "product7": {
-        "title": "Vertical Tank 200, 500, 1000 L",
-        "desc": "Large-capacity vertical tanks"
-      },
-      "product8": {
-        "title": "Vertical Tank 40–120 L",
-        "desc": "Medium-capacity vertical tanks"
-      },
-      "product9": {
-        "title": "Horizontal Tank 300 L",
-        "desc": "Horizontal tank, 300 liters"
-      },
-      "product10": {
-        "title": "Horizontal Tank 500, 1000 L",
-        "desc": "Horizontal tanks, 500–1000 liters"
-      },
-      "product11": {
-        "title": "Laundry Basket",
-        "desc": "Standard laundry basket"
-      },
-      "product12": {
-        "title": "Laundry Basket with Lid",
-        "desc": "Laundry basket with lid"
-      },
-      "product13": {
-        "title": "Garbage Container 120 L",
-        "desc": "Garbage container, 120 liters"
-      },
-      "product14": {
-        "title": "Container Set 'England'",
-        "desc": "Plastic container set 'England'"
-      },
-      "product15": {
-        "title": "Container Set 'Antalya'",
-        "desc": "Container set 'Antalya'"
-      },
-      "product16": {
-        "title": "Container Set 'China'",
-        "desc": "Container set 'China'"
-      },
-      "product17": {
-        "title": "Container Set of 4 'Turkey'",
-        "desc": "Set of 4 containers 'Turkey'"
-      },
-      "product18": {
-        "title": "Square Container Set 'Bodrum'",
-        "desc": "Square container set 'Bodrum'"
-      },
-      "product19": {
-        "title": "Container Set 'Italy'",
-        "desc": "Plastic container set 'Italy'"
-      },
-      "product20": {
-        "title": "Oval Container Set 'Bodrum'",
-        "desc": "Oval container set 'Bodrum'"
-      },
-      "product21": {
-        "title": "Container Set of 4",
-        "desc": "Standard set of 4 containers"
-      },
-      "product22": {
-        "title": "Container Set of 3 'Turkey'",
-        "desc": "Set of 3 containers 'Turkey'"
-      },
-      "product23": {
-        "title": "Round Bread Box",
-        "desc": "Round plastic bread box"
-      },
-      "product24": {
-        "title": "Bread Box 'Baton'",
-        "desc": "Bread box for storing a loaf"
-      },
-      "product25": {
-        "title": "Mesh Bread Box",
-        "desc": "Bread box with ventilation mesh"
-      },
-      "product26": {
-        "title": "Baby Bathtub & Accessories Set",
-        "desc": "Baby bathtub and accessories set"
-      },
-      "product27": {
-        "title": "Baby Bathtub",
-        "desc": "Plastic bathtub for children"
-      },
-      "product28": {
-        "title": "Pot 'Panda'",
-        "desc": "Children's potty with 'Panda' design"
-      },
-      "product29": {
-        "title": "Pot 'Simba'",
-        "desc": "Children's potty with 'Simba' design"
-      },
-      "product30": {
-        "title": "Bucket 'F'",
-        "desc": "Household bucket model 'F'"
-      },
-      "product31": {
-        "title": "Bath Lounger",
-        "desc": "Lounger for bathing infants"
-      },
-      "product32": {
-        "title": "Large Scoop",
-        "desc": "Large household scoop"
-      },
-      "product33": {
-        "title": "Basin 8 L",
-        "desc": "Plastic basin, 8 liters"
-      },
-      "product34": {
-        "title": "Set 'Kosa'",
-        "desc": "Dishware set 'Kosa' series"
-      },
-      "product35": {
-        "title": "Set 'Kosa'",
-        "desc": "Set of plastic products 'Kosa' series"
-      },
-      "product36": {
-        "title": "Salad Bowl 'Fridge'",
-        "desc": "Salad bowl for fridge storage"
-      },
-      "product37": {
-        "title": "Square Container",
-        "desc": "Square container for food"
-      },
-      "product38": {
-        "title": "Salad Bowl Set of 4",
-        "desc": "Set of 4 salad bowls"
-      },
-      "product39": {
-        "title": "Container Set 1, 2, 3.5, 5.5, 10 L",
-        "desc": "Set of containers in various sizes"
-      },
-      "product40": {
-        "title": "Cup",
-        "desc": "Plastic cup"
-      },
-      "product41": {
-        "title": "Flower Glass",
-        "desc": "Plastic glass with floral ornament"
-      },
-      "product42": {
-        "title": "Glass (Japan)",
-        "desc": "Glass in Japanese style"
-      },
-      "product43": {
-        "title": "Small Thermos",
-        "desc": "Small thermos for drinks"
-      },
-      "product44": {
-        "title": "Large Thermos",
-        "desc": "Large thermos for storing drinks"
-      },
-      "product45": {
-        "title": "Sugar Bowl",
-        "desc": "Plastic sugar bowl"
-      },
-      "product46": {
-        "title": "Small Scoop",
-        "desc": "Small household scoop"
-      },
-      "product47": {
-        "title": "Large Scoop",
-        "desc": "Large household scoop"
-      },
-      "product48": {
-        "title": "Baskets",
-        "desc": "Various household baskets"
-      },
-      "product49": {
-        "title": "Funnel for Jar",
-        "desc": "Funnel for filling jars"
-      },
-      "product50": {
-        "title": "Oil Container",
-        "desc": "Container for storing oil"
-      },
-      "product51": {
-        "title": "Set for Dry Products",
-        "desc": "Set for storing flour, sugar, and other dry products"
-      },
-      "product52": {
-        "title": "Bathroom Mirror Set",
-        "desc": "Mirror accessory set for bathroom"
-      },
-      "product53": {
-        "title": "Bathroom Mirror Set",
-        "desc": "Mirror and accessories set for bathroom"
-      },
-      "product54": {
-        "title": "Mesh Trash Can",
-        "desc": "Trash can with ventilation mesh"
-      },
-      "product55": {
-        "title": "Vegetable Shelf",
-        "desc": "Shelf for storing vegetables and fruits"
-      },
-      "product56": {
-        "title": "Pitcher",
-        "desc": "Plastic water pitcher"
-      },
-      "product57": {
-        "title": "Container Set",
-        "desc": "Set of plastic containers of different volumes"
-      },
-      "product58": {
-        "title": "Fly Swatter",
-        "desc": "Plastic fly swatter"
-      },
-      "product59": {
-        "title": "Dustpan",
-        "desc": "Plastic dustpan for cleaning"
-      },
-      "product60": {
-        "title": "Hanger 'Cobra'",
-        "desc": "Clothes hanger in 'Cobra' shape"
-      },
-      "product61": {
-        "title": "Flat Hanger",
-        "desc": "Flat clothes hanger"
-      },
-      "product62": {
-        "title": "Hanger 'Cobra 2'",
-        "desc": "Hanger model 'Cobra 2'"
-      },
-      "product63": {
-        "title": "Hanger 'Romashka'",
-        "desc": "Durable and convenient hanger for home use"
-      },
-      "product64": {
-        "title": "Basin 90 & 120 L",
-        "desc": "Large basins for water or food"
-      },
-      "product65": {
-        "title": "5 L Container",
-        "desc": "5-liter container for beverages or household liquids"
-      },
-      "product66": {
-        "title": "Basin 10, 16, 22, 30 L",
-        "desc": "Multipurpose basins of various volumes"
-      },
-      "product67": {
-        "title": "Oval Basin 28 L",
-        "desc": "Oval basin for kitchen and household needs"
-      },
-      "product68": {
-        "title": "Basin 'D' 30 L",
-        "desc": "Basin model 'D', 30 liters, made of thick plastic"
-      },
-      "product69": {
-        "title": "Basin 'EXC' 28 L",
-        "desc": "Modern EXC basin, 28 liters"
-      },
-      "product70": {
-        "title": "Basin 2, 4, 6, 8 L",
-        "desc": "Daily-use basins of various volumes"
-      },
-      "product71": {
-        "title": "Universal Barrel 40, 60, 80 L",
-        "desc": "Large barrels for water, food, and technical purposes"
-      },
-      "product72": {
-        "title": "Bio-Toilet",
-        "desc": "Convenient bio-toilet for outdoor or field use"
-      },
-      "product73": {
-        "title": "Bucket 'Dolphin' 10 L",
-        "desc": "10-liter household bucket with handle"
-      },
-      "product74": {
-        "title": "Bucket 'Euro' 12 L",
-        "desc": "12-liter Euro-style sturdy bucket"
-      },
-      "product75": {
-        "title": "Bucket 'F' 5, 8, 10, 12 L",
-        "desc": "Household buckets model F of various volumes"
-      },
-      "product76": {
-        "title": "Bucket 3 L",
-        "desc": "Small and convenient 3-liter bucket"
-      },
-      "product77": {
-        "title": "Bucket 'F' 10, 14, 15, 18 L",
-        "desc": "Large household buckets model F"
-      },
-      "product78": {
-        "title": "Oval Bucket 3, 10, 18 L",
-        "desc": "Oval buckets of various volumes, convenient and spacious"
-      }
+    "product1": {
+      "title": "4-piece set (round table)",
+      "desc": "1 round table, 4 chairs"
+    },
+    "product2": {
+      "title": "4-piece set (square table)",
+      "desc": "1 square table, 4 chairs"
+    },
+    "product3": {
+      "title": "4-piece set (square table)",
+      "desc": "1 square table, 4 armchairs"
+    },
+    "product4": {
+      "title": "Chair (Euro)",
+      "desc": "Euro-style chair"
+    },
+    "product5": {
+      "title": "Armchair (Euro)",
+      "desc": "Euro-style armchair"
+    },
+    "product6": {
+      "title": "Stool",
+      "desc": "Simple stool model"
+    },
+    "product7": {
+      "title": "Vertical tank (200, 500, 1000 L)",
+      "desc": "Large-capacity vertical tanks"
+    },
+    "product8": {
+      "title": "Vertical tank (40–120 L)",
+      "desc": "Medium-capacity vertical tanks"
+    },
+    "product9": {
+      "title": "Horizontal tank 300 L",
+      "desc": "300-liter horizontal tank"
+    },
+    "product10": {
+      "title": "Horizontal tanks (500, 1000 L)",
+      "desc": "500–1000 liter horizontal tanks"
+    },
+    "product11": {
+      "title": "Laundry basket",
+      "desc": "Simple laundry basket"
+    },
+    "product12": {
+      "title": "Laundry basket with lid",
+      "desc": "Laundry basket with a lid"
+    },
+    "product13": {
+      "title": "Waste container 120 L",
+      "desc": "120-liter waste container"
+    },
+    "product14": {
+      "title": "“England” container set",
+      "desc": "‘England’ series plastic container set"
+    },
+    "product15": {
+      "title": "“Antalya” container set",
+      "desc": "‘Antalya’ series container set"
+    },
+    "product16": {
+      "title": "“China” container set",
+      "desc": "‘China’ series container set"
+    },
+    "product17": {
+      "title": "4-piece “Turkey” container set",
+      "desc": "Set of 4 containers"
+    },
+    "product18": {
+      "title": "Square container set “Bodrum”",
+      "desc": "Square-shaped ‘Bodrum’ container set"
+    },
+    "product19": {
+      "title": "“Italy” container set",
+      "desc": "‘Italy’ series plastic container set"
+    },
+    "product20": {
+      "title": "Oval container set “Bodrum”",
+      "desc": "Oval-shaped ‘Bodrum’ container set"
+    },
+    "product21": {
+      "title": "4-piece container set",
+      "desc": "Standard set of 4 containers"
+    },
+    "product22": {
+      "title": "3-piece container set “Turkey”",
+      "desc": "3-piece ‘Turkey’ model set"
+    },
+    "product23": {
+      "title": "Round bread box",
+      "desc": "Round-shaped plastic bread container"
+    },
+    "product24": {
+      "title": "“Baton” bread box",
+      "desc": "Bread box designed for baguettes"
+    },
+    "product25": {
+      "title": "Ventilated bread box",
+      "desc": "Breathable ventilated bread storage box"
+    },
+    "product26": {
+      "title": "Children's bath set",
+      "desc": "Bath set for children"
+    },
+    "product27": {
+      "title": "Children's bathtub",
+      "desc": "Bathtub designed for children"
+    },
+    "product28": {
+      "title": "‘Panda’ children's potty",
+      "desc": "Panda-designed children's potty"
+    },
+    "product29": {
+      "title": "‘Simba’ children's potty",
+      "desc": "Simba-designed children's potty"
+    },
+    "product30": {
+      "title": "‘F’ bucket",
+      "desc": "‘F’ model household bucket"
+    },
+    "product31": {
+      "title": "Bath mat",
+      "desc": "Infant bathing mat"
+    },
+    "product32": {
+      "title": "Large basin",
+      "desc": "Large household basin"
+    },
+    "product33": {
+      "title": "8-liter basin",
+      "desc": "8-liter plastic basin"
+    },
+    "product34": {
+      "title": "‘Kosa’ set",
+      "desc": "Set of bowl-shaped containers"
+    },
+    "product35": {
+      "title": "‘Kosa’ set",
+      "desc": "Bowl-style container set"
+    },
+    "product36": {
+      "title": "Fridge salad bowl",
+      "desc": "Special salad bowl for refrigerator storage"
+    },
+    "product37": {
+      "title": "Square container",
+      "desc": "Square-shaped food container"
+    },
+    "product38": {
+      "title": "Set of 4 salad bowls",
+      "desc": "Set of 4 salad bowls"
+    },
+    "product39": {
+      "title": "Containers 1, 2, 3.5, 5.5, 10 L",
+      "desc": "Set of containers of various capacities"
+    },
+    "product40": {
+      "title": "Cup",
+      "desc": "Plastic drinking cup"
+    },
+    "product41": {
+      "title": "Floral-decorated goblet",
+      "desc": "Plastic goblet with floral pattern"
+    },
+    "product42": {
+      "title": "‘Japan’ goblet",
+      "desc": "Japanese-style goblet"
+    },
+    "product43": {
+      "title": "Small thermos",
+      "desc": "Small-capacity beverage thermos"
+    },
+    "product44": {
+      "title": "Large thermos",
+      "desc": "Large-capacity beverage thermos"
+    },
+    "product45": {
+      "title": "Sugar container",
+      "desc": "Container for storing sugar"
+    },
+    "product46": {
+      "title": "Small basin",
+      "desc": "Small-sized household basin"
+    },
+    "product47": {
+      "title": "Large basin",
+      "desc": "Large-sized household basin"
+    },
+    "product48": {
+      "title": "Baskets",
+      "desc": "Various baskets for household use"
+    },
+    "product49": {
+      "title": "Funnel for jars",
+      "desc": "Funnel designed for preserving jars"
+    },
+    "product50": {
+      "title": "Container for oil",
+      "desc": "Container for storing cooking oil"
+    },
+    "product51": {
+      "title": "Dry goods set",
+      "desc": "Set for flour, sugar, and other dry products"
+    },
+    "product52": {
+      "title": "Bathroom glass set",
+      "desc": "Set of bathroom glass accessories"
+    },
+    "product53": {
+      "title": "Bathroom glass set",
+      "desc": "Bathroom accessory set"
+    },
+    "product54": {
+      "title": "Ventilated trash bin",
+      "desc": "Trash bin with mesh ventilation"
+    },
+    "product55": {
+      "title": "Vegetable shelf",
+      "desc": "Rack for storing vegetables and fruits"
+    },
+    "product56": {
+      "title": "Pitcher",
+      "desc": "Plastic pitcher for water storage"
+    },
+    "product57": {
+      "title": "Dish set",
+      "desc": "Set of containers of different sizes"
+    },
+    "product58": {
+      "title": "Fly swatter",
+      "desc": "Plastic fly and insect swatter"
+    },
+    "product59": {
+      "title": "Dustpan",
+      "desc": "Plastic dustpan for household cleaning"
+    },
+    "product60": {
+      "title": "‘Cobra’ hanging hook",
+      "desc": "‘Cobra’-shaped clothes hook"
+    },
+    "product61": {
+      "title": "Flat hook",
+      "desc": "Flat-shaped clothes hook"
+    },
+    "product62": {
+      "title": "‘Cobra 2’ hanging hook",
+      "desc": "Second version of the ‘Cobra’ hook"
+    },
+    "product63": {
+      "title": "“Romaschka” hook",
+      "desc": "Durable and convenient household hook"
+    },
+    "product64": {
+      "title": "90 and 120 liter basins",
+      "desc": "Large-volume basins for water or food products"
+    },
+    "product65": {
+      "title": "5-liter container",
+      "desc": "5-liter container for beverages or household liquids"
+    },
+    "product66": {
+      "title": "10, 16, 22, 30 liter basins",
+      "desc": "Multi-purpose basins of various capacities"
+    },
+    "product67": {
+      "title": "28-liter oval basin",
+      "desc": "Oval 28-liter basin for kitchen and household use"
+    },
+    "product68": {
+      "title": "“D” 30-liter basin",
+      "desc": "30-liter “D” model basin made of thick plastic"
+    },
+    "product69": {
+      "title": "28-liter “EXC” basin",
+      "desc": "Modern-design 28-liter EXC basin"
+    },
+    "product70": {
+      "title": "2, 4, 6, 8 liter basins",
+      "desc": "Everyday basins in various capacities"
+    },
+    "product71": {
+      "title": "40, 60, 80 liter universal barrel",
+      "desc": "Large barrels for water, food, and technical purposes"
+    },
+    "product72": {
+      "title": "Bio-toilet",
+      "desc": "Bio-toilet suitable for nature or field use"
+    },
+    "product73": {
+      "title": "10-liter “Dolphin” bucket",
+      "desc": "Convenient 10-liter household bucket with handle"
+    },
+    "product74": {
+      "title": "12-liter “Euro” bucket",
+      "desc": "12-liter Euro-style durable bucket"
+    },
+    "product75": {
+      "title": "5, 8, 10, 12 liter “F” buckets",
+      "desc": "Various capacities of F-model household buckets"
+    },
+    "product76": {
+      "title": "3-liter bucket",
+      "desc": "Small, lightweight and convenient 3-liter bucket"
+    },
+    "product77": {
+      "title": "10, 14, 15, 18 liter “F” buckets",
+      "desc": "Large-capacity F-model household buckets"
+    },
+    "product78": {
+      "title": "3, 10, 18 liter oval buckets",
+      "desc": "Oval-shaped convenient buckets in multiple sizes"
+    }
   },
   "apparations": {
-
-      "apparation1": {
-        "name": "Injection Molding Machine JU3300 V-6",
-        "work": "45 kg"
-      },
-      "apparation2": {
-        "name": "Injection Molding Machine BT 1300",
-        "work": "6 kg"
-      },
-      "apparation3": {
-        "name": "Injection Molding Machine UJ680CA",
-        "work": "3 kg"
-      },
-      "apparation4": {
-        "name": "Injection Molding Machine BT500-III",
-        "work": "2 kg"
-      },
-      "apparation5": {
-        "name": "Injection Molding Machine BJ400-V6",
-        "work": "2 kg"
-      },
-      "apparation6": {
-        "name": "Injection Molding Machine BJ330-V6",
-        "work": "1.20 kg"
-      },
-      "apparation7": {
-        "name": "Injection Molding Machine BJ330-V6",
-        "work": "1.20 kg"
-      },
-      "apparation8": {
-        "name": "Injection Molding Machine BT320-III",
-        "work": "1 kg"
-      },
-      "apparation9": {
-        "name": "Injection Molding Machine BJ330-V6",
-        "work": "1 kg"
-      },
-      "apparation10": {
-        "name": "Injection Molding Machine BT320-III",
-        "work": "1 kg"
-      },
-      "apparation11": {
-        "name": "Injection Molding Machine UL/150CA",
-        "work": "0.20 kg"
-      },
-      "apparation12": {
-        "name": "Injection Molding Machine BJ90-V6",
-        "work": "0.10 kg"
-      },
-      "apparation13": {
-        "name": "Injection Molding Machine BJ160-V6",
-        "work": "0.20 kg"
-      },
-      "apparation14": {
-        "name": "Injection Molding Machine UL/230CA",
-        "work": "0.70 g"
-      },
-      "apparation15": {
-        "name": "Injection Molding Machine UL/150CA",
-        "work": "0.20 kg"
-      },
-      "apparation16": {
-        "name": "Injection Molding Machine UL/120CA",
-        "work": "0.18 kg"
-      },
-      "apparation17": {
-        "name": "Injection Molding Machine BJ200-V6",
-        "work": "0.60 kg"
-      },
-      "apparation18": {
-        "name": "Injection Molding Machine BJ160-V6",
-        "work": "0.20 kg"
-      },
-      "apparation19": {
-        "name": "Injection Molding Machine BT200-III",
-        "work": "0.60 kg"
-      },
-      "apparation20": {
-        "name": "Injection Molding Machine UL/230CA",
-        "work": "0.70 g"
-      },
-      "apparation21": {
-        "name": "Injection Molding Machine UL/180CA",
-        "work": "0.25 kg"
-      },
-      "apparation22": {
-        "name": "Injection Molding Machine UL/150CA",
-        "work": "0.20 kg"
-      },
-      "apparation23": {
-        "name": "Injection Molding Machine UL/120CA",
-        "work": "0.18 kg"
-      },
-      "apparation24": {
-        "name": "Blow Molding Machine YF100",
-        "work": "150 L"
-      },
-      "apparation25": {
-        "name": "Blow Molding Machine",
-        "work": "1 L"
-      }    
+    "apparation1": {
+      "name": "Thermoplastic machine JU3300 V-6",
+      "work": "45 kg"
+    },
+    "apparation2": {
+      "name": "Thermoplastic machine VT 1300",
+      "work": "6 kg"
+    },
+    "apparation3": {
+      "name": "Thermoplastic machine UJ680CA",
+      "work": "3 kg"
+    },
+    "apparation4": {
+      "name": "Thermoplastic machine VT500-III",
+      "work": "2 kg"
+    },
+    "apparation5": {
+      "name": "Thermoplastic machine BJ400-V6",
+      "work": "2 kg"
+    },
+    "apparation6": {
+      "name": "Thermoplastic machine BJ330-V6",
+      "work": "1.20 kg"
+    },
+    "apparation7": {
+      "name": "Thermoplastic machine BJ330-V6",
+      "work": "1.20 kg"
+    },
+    "apparation8": {
+      "name": "Thermoplastic machine VT320-III",
+      "work": "1 kg"
+    },
+    "apparation9": {
+      "name": "Thermoplastic machine BJ330-V6",
+      "work": "1 kg"
+    },
+    "apparation10": {
+      "name": "Thermoplastic machine VT320-III",
+      "work": "1 kg"
+    },
+    "apparation11": {
+      "name": "Thermoplastic machine UL/150CA",
+      "work": "0.20 kg"
+    },
+    "apparation12": {
+      "name": "Thermoplastic machine BJ90-V6",
+      "work": "0.10 kg"
+    },
+    "apparation13": {
+      "name": "Thermoplastic machine BJ160-V6",
+      "work": "0.20 kg"
+    },
+    "apparation14": {
+      "name": "Thermoplastic machine UL/230CA",
+      "work": "0.70 g"
+    },
+    "apparation15": {
+      "name": "Thermoplastic machine UL/150CA",
+      "work": "0.20 kg"
+    },
+    "apparation16": {
+      "name": "Thermoplastic machine UL/120CA",
+      "work": "0.18 kg"
+    },
+    "apparation17": {
+      "name": "Thermoplastic machine BJ200-V6",
+      "work": "0.60 kg"
+    },
+    "apparation18": {
+      "name": "Thermoplastic machine BJ160-V6",
+      "work": "0.20 kg"
+    },
+    "apparation19": {
+      "name": "Thermoplastic machine VT200-III",
+      "work": "0.60 kg"
+    },
+    "apparation20": {
+      "name": "Thermoplastic machine UL/230CA",
+      "work": "0.70 g"
+    },
+    "apparation21": {
+      "name": "Thermoplastic machine UL/180CA",
+      "work": "0.25 kg"
+    },
+    "apparation22": {
+      "name": "Thermoplastic machine UL/150CA",
+      "work": "0.20 kg"
+    },
+    "apparation23": {
+      "name": "Thermoplastic machine UL/120CA",
+      "work": "0.18 kg"
+    },
+    "apparation24": {
+      "name": "Blow molding machine YF100",
+      "work": "150 L"
+    },
+    "apparation25": {
+      "name": "Blow molding machine",
+      "work": "1 L"
+    }
   },
   "apparations_words": {
-    "name": "Model",
-    "work": "Capacity",
+    "name": "Equipment name",
+    "work": "Production capacity",
     "model1": "TPA 90 / 120 / 230 - For small and micro parts",
     "model2": "TPA 330 / 400 / 500 - For medium-sized products",
-    "model3": "TPA 680 / 1300 / 3300 - For large-volume products"
+    "model3": "TPA 680 / 1300 / 3300 - For large products"
   }
 }
-

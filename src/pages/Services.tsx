@@ -113,7 +113,7 @@ const Services = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
               <img
-                src={customManufacturing}
+                src={apparation3}
                 alt="Zamonaviy uskunalar"
                 className="rounded-lg shadow-premium w-full"
               />
@@ -121,30 +121,30 @@ const Services = () => {
             
             <div className="animate-fade-in animation-delay-150">
               <h3 className="text-3xl font-bold mb-6">
-                Yuqori texnologiyali ishlab chiqarish
+                {t("services.uskuna1")}
               </h3>
               <p className="text-lg text-muted-foreground mb-4">
-                Bizning korxonamiz eng zamonaviy uskunalar bilan jihozlangan. Bu bizga yuqori sifatli mahsulotlarni tez va samarali ishlab chiqarish imkonini beradi.
+                {t("services.uskuna2")}
               </p>
               <p className="text-lg text-muted-foreground mb-4">
-                Barcha uskunalar muntazam ravishda texnik xizmat ko'rsatiladi va yangilanadi, bu esa ishlab chiqarish jarayonining uzluksizligini ta'minlaydi.
+                {t("services.uskuna3")}
               </p>
               <div className="space-y-3 mt-6">
                 <div className="flex items-center">
                   <div className="w-2 h-2 bg-accent rounded-full mr-3" />
-                  <span className="text-lg">Avtomatlashtirilgan ishlab chiqarish liniyalari</span>
+                  <span className="text-lg">{t("services.uskuna4")}</span>
                 </div>
                 <div className="flex items-center">
                   <div className="w-2 h-2 bg-accent rounded-full mr-3" />
-                  <span className="text-lg">Zamonaviy qoliplash uskunalari</span>
+                  <span className="text-lg">{t("services.uskuna5")}</span>
                 </div>
                 <div className="flex items-center">
                   <div className="w-2 h-2 bg-accent rounded-full mr-3" />
-                  <span className="text-lg">Sifat nazorati tizimlari</span>
+                  <span className="text-lg">{t("services.uskuna6")}</span>
                 </div>
                 <div className="flex items-center">
                   <div className="w-2 h-2 bg-accent rounded-full mr-3" />
-                  <span className="text-lg">Ekologik xavfsiz texnologiyalar</span>
+                  <span className="text-lg">{t("services.uskuna7")}</span>
                 </div>
               </div>
             </div>
