@@ -19,7 +19,7 @@ export default function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 4000); // 4000 ms = 4 seconds
+    const timer = setTimeout(() => setLoading(false), 3000); // 4000 ms = 4 seconds
     return () => clearTimeout(timer);
   }, []);
 
