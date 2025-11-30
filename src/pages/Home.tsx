@@ -72,12 +72,12 @@ const Home = () => {
           </video>
 
           {/* Updated bottom-to-top gradient */}
-          <div className="absolute inset-0 bg-gradient-to-t from-[#044e35]/80 via-[#044e35]/40 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#015436]/80 via-[#015436]/40 to-transparent" />
         </div>
 
         <div className="container mx-auto px-4 z-10 text-center text-primary-foreground animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            <span className="bg-gradient-accent bg-clip-text text-transparent">
+            <span className="bg-[#FFD700] bg-clip-text text-transparent">
               Exclusive Invest Industry
             </span>
           </h1>
@@ -87,7 +87,7 @@ const Home = () => {
           <Button
             onClick={() => navigate("/about")}
             size="lg"
-            className="bg-gradient-accent text-accent-foreground hover:scale-105 transition-transform duration-300 shadow-glow"
+            className="bg-[#FFD700] text-accent-foreground hover:scale-105 transition-transform duration-300 shadow-glow"
           >
             {t("hero.learnMore")}
             <ArrowRight className="ml-2" />
@@ -100,18 +100,19 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8 mb-16">
             <Card className="border-primary/20 hover:shadow-premium transition-shadow duration-300 animate-fade-in">
-              <CardContent className="p-8 text-center">
-                <Factory className="w-16 h-16 text-accent mx-auto mb-4" />
-                <h3 className="text-2xl font-bold mb-3">200+ Mahsulotlar</h3>
-                <p className="text-muted-foreground">
-                  200 xildan ortiq plastik mahsulotlarni ishlab chiqaramiz
-                </p>
-              </CardContent>
-            </Card>
+  <CardContent className="p-8 text-center">
+    <Factory className="w-16 h-16 text-[#FFD700] mx-auto mb-4" />
+    <h3 className="text-2xl font-bold mb-3">200+ Mahsulotlar</h3>
+    <p className="text-muted-foreground">
+      200 xildan ortiq plastik mahsulotlarni ishlab chiqaramiz
+    </p>
+  </CardContent>
+</Card>
+
 
             <Card className="border-primary/20 hover:shadow-premium transition-shadow duration-300 animate-fade-in animation-delay-150">
               <CardContent className="p-8 text-center">
-                <Shield className="w-16 h-16 text-accent mx-auto mb-4" />
+                <Shield className="w-16 h-16 text-[#FFD700] mx-auto mb-4" />
                 <h3 className="text-2xl font-bold mb-3">Yuqori Sifat</h3>
                 <p className="text-muted-foreground">
                   Zamonaviy uskunalar va sifat nazorati tizimi
@@ -121,7 +122,7 @@ const Home = () => {
 
             <Card className="border-primary/20 hover:shadow-premium transition-shadow duration-300 animate-fade-in animation-delay-300">
               <CardContent className="p-8 text-center">
-                <Clock className="w-16 h-16 text-accent mx-auto mb-4" />
+                <Clock className="w-16 h-16 text-[#FFD700] mx-auto mb-4" />
                 <h3 className="text-2xl font-bold mb-3">Tez Yetkazib Berish</h3>
                 <p className="text-muted-foreground">
                   O'z vaqtida buyurtmalarni bajarish va yetkazib berish
@@ -185,7 +186,7 @@ const Home = () => {
             <Button
               onClick={() => navigate("/products")}
               size="lg"
-              className="bg-gradient-accent text-accent-foreground hover:scale-105 transition-transform"
+              className="bg-[#FFD700] text-accent-foreground hover:scale-105 transition-transform"
             >
               {t("home.learnMore")}
               <ArrowRight className="ml-2" />
@@ -344,7 +345,7 @@ const Home = () => {
 
                 <Button
                   type="submit"
-                  className="w-full bg-gradient-accent text-accent-foreground hover:scale-105 transition-transform"
+                  className="w-full bg-[#FFD700] text-accent-foreground hover:scale-105 transition-transform"
                   size="lg"
                 >
                   {t("home.send")}

@@ -425,106 +425,31 @@
     }
   },
   "apparations": {
-      "apparation1": {
-        "name": "Termoplast avtomat JU3300 V-6",
-        "work": "45 kg"
-      },
-      "apparation2": {
-        "name": "Termoplast avtomat ВТ 1300",
-        "work": "6 kg"
-      },
-      "apparation3": {
-        "name": "Termoplast avtomat UJ680CA",
-        "work": "3 kg"
-      },
-      "apparation4": {
-        "name": "Termoplast avtomat ВТ500-III",
-        "work": "2 kg"
-      },
-      "apparation5": {
-        "name": "Termoplast avtomat ВJ400-V6",
-        "work": "2 kg"
-      },
-      "apparation6": {
-        "name": "Termoplast avtomat BJ330-V6",
-        "work": "1.20 kg"
-      },
-      "apparation7": {
-        "name": "Termoplast avtomat BJ330-V6",
-        "work": "1.20 kg"
-      },
-      "apparation8": {
-        "name": "Termoplast avtomat ВТ320-III",
-        "work": "1 kg"
-      },
-      "apparation9": {
-        "name": "Termoplast avtomat BJ330-V6",
-        "work": "1 kg"
-      },
-      "apparation10": {
-        "name": "Termoplast avtomat ВТ320-III",
-        "work": "1 kg"
-      },
-      "apparation11": {
-        "name": "Termoplast avtomat UL/150CA",
-        "work": "0.20 kg"
-      },
-      "apparation12": {
-        "name": "Termoplast avtomat BJ90-V6",
-        "work": "0.10 kg"
-      },
-      "apparation13": {
-        "name": "Termoplast avtomat ВJ160-V6",
-        "work": "0.20 kg"
-      },
-      "apparation14": {
-        "name": "Termoplast avtomat UL/230CA",
-        "work": "0.70 g"
-      },
-      "apparation15": {
-        "name": "Termoplast avtomat UL/150CA",
-        "work": "0.20 kg"
-      },
-      "apparation16": {
-        "name": "Termoplast avtomat UL/120CA",
-        "work": "0.18 kg"
-      },
-      "apparation17": {
-        "name": "Termoplast avtomat ВJ200-V6",
-        "work": "0.60 kg"
-      },
-      "apparation18": {
-        "name": "Termoplast avtomat ВJ160-V6",
-        "work": "0.20 kg"
-      },
-      "apparation19": {
-        "name": "Termoplast avtomat ВТ200-III",
-        "work": "0.60 kg"
-      },
-      "apparation20": {
-        "name": "Termoplast avtomat UL/230CA",
-        "work": "0.70 g"
-      },
-      "apparation21": {
-        "name": "Termoplast avtomat UL/180CA",
-        "work": "0.25 kg"
-      },
-      "apparation22": {
-        "name": "Termoplast avtomat UL/150CA",
-        "work": "0.20 kg"
-      },
-      "apparation23": {
-        "name": "Termoplast avtomat UL/120CA",
-        "work": "0.18 kg"
-      },
-      "apparation24": {
-        "name": "Vydub mashinasi YF100",
-        "work": "150 L"
-      },
-      "apparation25": {
-        "name": "Vydub mashinasi",
-        "work": "1 L"
-      }
+    "apparation1": { "name": "Termoplast avtomat JU3300 V-6", "work": "45000 g" },
+    "apparation2": { "name": "Termoplast avtomat ВТ 1300", "work": "6000 g" },
+    "apparation3": { "name": "Termoplast avtomat UJ680CA", "work": "3000 g" },
+    "apparation4": { "name": "Termoplast avtomat ВТ500-III", "work": "2000 g" },
+    "apparation5": { "name": "Termoplast avtomat ВJ400-V6", "work": "2000 g" },
+    "apparation6": { "name": "Termoplast avtomat BJ330-V6", "work": "1200 g" },
+    "apparation7": { "name": "Termoplast avtomat BJ330-V6", "work": "1200 g" },
+    "apparation8": { "name": "Termoplast avtomat ВТ320-III", "work": "1000 g" },
+    "apparation9": { "name": "Termoplast avtomat BJ330-V6", "work": "1000 g" },
+    "apparation10": { "name": "Termoplast avtomat ВТ320-III", "work": "1000 g" },
+    "apparation11": { "name": "Termoplast avtomat UL/150CA", "work": "200 g" },
+    "apparation12": { "name": "Termoplast avtomat BJ90-V6", "work": "100 g" },
+    "apparation13": { "name": "Termoplast avtomat ВJ160-V6", "work": "200 g" },
+    "apparation14": { "name": "Termoplast avtomat UL/230CA", "work": "0.70 g" },
+    "apparation15": { "name": "Termoplast avtomat UL/150CA", "work": "200 g" },
+    "apparation16": { "name": "Termoplast avtomat UL/120CA", "work": "180 g" },
+    "apparation17": { "name": "Termoplast avtomat ВJ200-V6", "work": "600 g" },
+    "apparation18": { "name": "Termoplast avtomat ВJ160-V6", "work": "200 g" },
+    "apparation19": { "name": "Termoplast avtomat ВТ200-III", "work": "600 g" },
+    "apparation20": { "name": "Termoplast avtomat UL/230CA", "work": "0.70 g" },
+    "apparation21": { "name": "Termoplast avtomat UL/180CA", "work": "250 g" },
+    "apparation22": { "name": "Termoplast avtomat UL/150CA", "work": "200 g" },
+    "apparation23": { "name": "Termoplast avtomat UL/120CA", "work": "180 g" },
+    "apparation24": { "name": "Vydub mashinasi YF100", "work": "150 L" },
+    "apparation25": { "name": "Vydub mashinasi", "work": "1 L" }
   },
   "apparations_words": {
     "name": "Uskuna nomi",

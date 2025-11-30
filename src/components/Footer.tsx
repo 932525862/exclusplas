@@ -6,7 +6,7 @@ const Footer = () => {
   const { t } = useTranslation();
 
   return (
-    <footer className="bg-[#044e35] text-primary-foreground">
+    <footer className="bg-[#015436] text-primary-foreground">
       <div className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
 
@@ -14,7 +14,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-3 mb-4">
               <img src={Logo} alt="Exclusive Plast Logo" className="h-12 w-auto" />
-              <h3 className="text-2xl font-bold bg-gradient-accent bg-clip-text text-transparent">
+              <h3 className="text-2xl font-bold bg-[#FFD700] bg-clip-text text-transparent">
                 EXCLUSIVE PLAST
               </h3>
             </div>

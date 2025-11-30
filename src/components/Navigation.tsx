@@ -36,14 +36,17 @@ const Navigation = () => {
   const isActive = (path: string) => location.pathname === path;
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-[#044e35] backdrop-blur-sm shadow-premium">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-[#015436] backdrop-blur-sm shadow-premium">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
 
-          {/* Logo + Company Name */}
+          {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
             <img src={Logo} alt="Exclusive Plast Logo" className="h-12 w-auto" />
-            <div className="text-2xl font-bold bg-gradient-accent bg-clip-text text-transparent">
+            <div
+              className="text-2xl font-bold text-transparent bg-clip-text"
+              style={{ backgroundImage: "linear-gradient(#FFD700,#FFD700)" }}
+            >
               EXCLUSIVE PLAST
             </div>
           </Link>
@@ -54,22 +57,25 @@ const Navigation = () => {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`text-lg font-medium transition-all duration-300 hover:text-accent ${
+                className={`text-lg font-medium transition-all duration-300 hover:text-[#FFD700] ${
                   isActive(link.path)
-                    ? "text-accent border-b-2 border-accent"
+                    ? "text-[#FFD700] border-b-2"
                     : "text-primary-foreground"
                 }`}
+                style={isActive(link.path) ? { borderColor: "#FFD700" } : {}}
               >
                 {link.name}
               </Link>
             ))}
             
+            {/* Language Dropdown */}
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <Button
                   variant="ghost"
                   size="icon"
-                  className="text-primary-foreground hover:text-accent"
+                  className="hover:opacity-80"
+                  style={{ backgroundColor: "#FFD700", color: "black" }}
                 >
                   <Globe className="h-5 w-5" />
                 </Button>
@@ -79,7 +85,7 @@ const Navigation = () => {
                   <DropdownMenuItem
                     key={lang.code}
                     onClick={() => changeLanguage(lang.code)}
-                    className={i18n.language === lang.code ? "bg-accent/10" : ""}
+                    className={i18n.language === lang.code ? "bg-[#FFD700]/20" : ""}
                   >
                     {lang.name}
                   </DropdownMenuItem>
@@ -87,9 +93,11 @@ const Navigation = () => {
               </DropdownMenuContent>
             </DropdownMenu>
 
+            {/* Contact Button */}
             <Button
               asChild
-              className="bg-gradient-accent text-accent-foreground hover:opacity-90 transition-opacity"
+              className="hover:opacity-80"
+              style={{ backgroundColor: "#FFD700", color: "black" }}
             >
               <a href="#contact">{t("nav.contact")}</a>
             </Button>
@@ -114,31 +122,38 @@ const Navigation = () => {
                 onClick={() => setIsOpen(false)}
                 className={`block text-lg font-medium py-2 transition-colors ${
                   isActive(link.path)
-                    ? "text-accent"
-                    : "text-primary-foreground hover:text-accent"
+                    ? "text-[#FFD700]"
+                    : "text-primary-foreground hover:text-[#FFD700]"
                 }`}
               >
                 {link.name}
               </Link>
             ))}
             
+            {/* Mobile language buttons */}
             <div className="flex gap-2 pt-2">
               {languages.map((lang) => (
                 <Button
                   key={lang.code}
-                  variant={i18n.language === lang.code ? "default" : "outline"}
                   size="sm"
                   onClick={() => changeLanguage(lang.code)}
-                  className="flex-1"
+                  className="flex-1 hover:opacity-80"
+                  style={{
+                    backgroundColor: "#FFD700",
+                    color: "black",
+                    border: "none"
+                  }}
                 >
                   {lang.name}
                 </Button>
               ))}
             </div>
 
+            {/* Mobile Contact */}
             <Button
               asChild
-              className="w-full bg-gradient-accent text-accent-foreground"
+              className="w-full hover:opacity-80"
+              style={{ backgroundColor: "#FFD700", color: "black" }}
             >
               <a href="#contact" onClick={() => setIsOpen(false)}>
                 {t("nav.contact")}

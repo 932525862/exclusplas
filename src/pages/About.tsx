@@ -23,7 +23,7 @@ const About = () => {
           </video>
 
           {/* Updated bottom-to-top gradient */}
-          <div className="absolute inset-0 bg-gradient-to-t from-[#044e35]/100 via-[#044e35]/40 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#015436]/100 via-[#015436]/40 to-transparent" />
         </div>
 
         <div className="container mx-auto px-4 z-10 text-center text-primary-foreground">
@@ -76,7 +76,7 @@ const About = () => {
           <div className="grid md:grid-cols-4 gap-8">
             <Card className="border-primary/20 hover:shadow-premium transition-all duration-300 hover:scale-105">
               <CardContent className="p-8 text-center">
-                <Award className="w-16 h-16 text-accent mx-auto mb-4" />
+                <Award className="w-16 h-16 text-[#FFD700] mx-auto mb-4" />
                 <h3 className="text-xl font-bold mb-2">{t("about.quality")}</h3>
                 <p className="text-muted-foreground">
                   {t("about.qualityDesc")}
@@ -86,7 +86,7 @@ const About = () => {
 
             <Card className="border-primary/20 hover:shadow-premium transition-all duration-300 hover:scale-105">
               <CardContent className="p-8 text-center">
-                <Users className="w-16 h-16 text-accent mx-auto mb-4" />
+                <Users className="w-16 h-16 text-[#FFD700] mx-auto mb-4" />
                 <h3 className="text-xl font-bold mb-2">{t("about.team")}</h3>
                 <p className="text-muted-foreground">{t("about.teamDesc")}</p>
               </CardContent>
@@ -94,7 +94,7 @@ const About = () => {
 
             <Card className="border-primary/20 hover:shadow-premium transition-all duration-300 hover:scale-105">
               <CardContent className="p-8 text-center">
-                <Target className="w-16 h-16 text-accent mx-auto mb-4" />
+                <Target className="w-16 h-16 text-[#FFD700] mx-auto mb-4" />
                 <h3 className="text-xl font-bold mb-2">{t("about.mission")}</h3>
                 <p className="text-muted-foreground">
                   {t("about.missionDesc")}
@@ -104,7 +104,7 @@ const About = () => {
 
             <Card className="border-primary/20 hover:shadow-premium transition-all duration-300 hover:scale-105">
               <CardContent className="p-8 text-center">
-                <TrendingUp className="w-16 h-16 text-accent mx-auto mb-4" />
+                <TrendingUp className="w-16 h-16 text-[#FFD700] mx-auto mb-4" />
                 <h3 className="text-xl font-bold mb-2">{t("about.growth")}</h3>
                 <p className="text-muted-foreground">{t("about.growthDesc")}</p>
               </CardContent>
@@ -118,22 +118,22 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div className="animate-fade-in">
-              <div className="text-5xl font-bold text-accent mb-2">20+</div>
+              <div className="text-5xl font-bold text-[#FFD700] mb-2">20+</div>
               <p className="text-xl">{t("about.yearsExperience")}</p>
             </div>
 
             <div className="animate-fade-in animation-delay-150">
-              <div className="text-5xl font-bold text-accent mb-2">200+</div>
+              <div className="text-5xl font-bold text-[#FFD700] mb-2">200+</div>
               <p className="text-xl">{t("about.productTypes")}</p>
             </div>
 
             <div className="animate-fade-in animation-delay-300">
-              <div className="text-5xl font-bold text-accent mb-2">500+</div>
+              <div className="text-5xl font-bold text-[#FFD700] mb-2">500+</div>
               <p className="text-xl">{t("about.happyClients")}</p>
             </div>
 
             <div className="animate-fade-in animation-delay-450">
-              <div className="text-5xl font-bold text-accent mb-2">100%</div>
+              <div className="text-5xl font-bold text-[#FFD700] mb-2">100%</div>
               <p className="text-xl">{t("about.qualityGuarantee")}</p>
             </div>
           </div>

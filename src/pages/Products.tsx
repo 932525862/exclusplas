@@ -38,7 +38,7 @@ const Products = () => {
           </video>
 
           {/* Updated bottom-to-top gradient */}
-          <div className="absolute inset-0 bg-gradient-to-t from-[#044e35]/100 via-[#044e35]/40 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#015436]/100 via-[#015436]/40 to-transparent" />
         </div>
 
         <div className="container mx-auto px-4 z-10 text-center text-primary-foreground">

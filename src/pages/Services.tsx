@@ -4,9 +4,9 @@ import heroImage from "@/assets/hero-image.jpg";
 import { Cog, Truck, Headphones, ClipboardCheck } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import Backvideo2 from "@/assets/backrount2.mp4";
-import apparation1 from "@/assets/apparation1.jpg";
+import apparation1 from "@/assets/termo (1).png";
 import apparation2 from "@/assets/apparation2.jpg";
-import apparation3 from "@/assets/apparation3.jpg";
+import apparation3 from "@/assets/termo.png";
 
 const Services = () => {
   const { t } = useTranslation();
@@ -47,7 +47,7 @@ const Services = () => {
           </video>
 
           {/* Updated bottom-to-top gradient */}
-          <div className="absolute inset-0 bg-gradient-to-t from-[#044e35]/100 via-[#044e35]/40 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#015436]/100 via-[#015436]/40 to-transparent" />
         </div>
 
         <div className="container mx-auto px-4 z-10 text-center text-primary-foreground">
@@ -80,7 +80,7 @@ const Services = () => {
           <div className="flex flex-col  max-md:mt-6 mt-16 font-medium max-w-5xl mx-auto bg-slate-50 overflow-hidden rounded-xl">
             <div className="max-md:overflow-x-auto">
               <div className="min-w-[600px]">
-                <div className="grid grid-cols-8 p-3 bg-[#F9C31F]">
+                <div className="grid grid-cols-8 p-3 bg-[#FFD700]">
                   <div className="col-span-1 text-center">No</div>
                   <div className="col-span-3 text-center">{t("apparations_words.name")}</div>
                   <div className="col-span-4 text-center">{t("apparations_words.work")}</div>
@@ -163,7 +163,7 @@ const Services = () => {
           </p>
           <a
             href="/#contact"
-            className="inline-block px-8 py-4 bg-accent text-accent-foreground rounded-lg font-semibold text-lg hover:scale-105 transition-transform shadow-glow"
+            className="inline-block px-8 py-4 bg-[#FFD700] text-accent-foreground rounded-lg font-semibold text-lg hover:scale-105 transition-transform shadow-glow"
           >
             Bog'lanish
           </a>
