@@ -147,9 +147,9 @@ const Home = () => {
                   </svg>
                 </div>
 
-                <h3 className="text-2xl font-bold mb-3">200+ Mahsulotlar</h3>
+                <h3 className="text-2xl font-bold mb-3">{t("home.advantageTitle1")}</h3>
                 <p className="text-muted-foreground">
-                  200 xildan ortiq plastik mahsulotlarni ishlab chiqaramiz
+                  {t("home.advantageDesc1")}
                 </p>
               </CardContent>
             </Card>
@@ -185,9 +185,9 @@ const Home = () => {
                   </svg>
                 </div>
 
-                <h3 className="text-2xl font-bold mb-3">Yuqori Sifat</h3>
+                <h3 className="text-2xl font-bold mb-3">{t("home.advantageTitle2")}</h3>
                 <p className="text-muted-foreground">
-                  Zamonaviy uskunalar va sifat nazorati tizimi
+                  {t("home.advantageDesc2")}
                 </p>
               </CardContent>
             </Card>
@@ -224,9 +224,9 @@ const Home = () => {
                   </svg>
                 </div>
 
-                <h3 className="text-2xl font-bold mb-3">Tez Yetkazib Berish</h3>
+                <h3 className="text-2xl font-bold mb-3">{t("home.advantageTitle3")}</h3>
                 <p className="text-muted-foreground">
-                  O'z vaqtida buyurtmalarni bajarish va yetkazib berish
+                  {t("home.advantageDesc3")}
                 </p>
               </CardContent>
             </Card>

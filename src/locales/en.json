@@ -16,10 +16,10 @@
     "title": "About Us",
     "subtitle": "On the path of quality and innovation",
     "history": "Company History",
-    "historyText1": "Exclusive Invest Industry began its operations in 2005, and today the “EXCLUSIVE PLAST” brand is one of the largest manufacturers of plastic products in Uzbekistan.",
-    "historyText2": "Since we manufacture products ourselves, we offer them at prices lower than the market. However, this does not affect the quality of our products. All products are certified by the Uzstandard authorities and fully comply with international standards.",
-    "historyText3": "“Exclusive Plast” is one of the leading manufacturers in Uzbekistan and the CIS countries. The company has nearly 10,000 square meters of production area, manufactures over 200 types of products, and has an annual production capacity of approximately 3,000 tons. Currently, more than 150 qualified employees work at the enterprise.",
-    "historyText4": "Today the company regularly supplies its products to the world market under export contracts with several countries.",
+    "historyText1": "Exclusive Invest Industry was founded in 2006 and is currently one of the leading manufacturers of plastic products in Uzbekistan under the brand “Exclusive Plast”. Since 2024, the company has also established GL Clean, launching the production of five types of vacuum cleaners under the MAGNA brand.",
+    "historyText2": "Thanks to direct manufacturing, we offer our products at prices lower than the market rate, while this has absolutely no impact on their quality. All products are certified by the O‘Zstandart quality system and fully comply with international standards.",
+    "historyText3": "“Exclusive Plast” and GL Clean are among the leading manufacturers in Uzbekistan and the CIS countries. The company has nearly 10,000 square meters of production space and produces over 200 types of plastic products. Its annual production capacity is 3,000 tons of plastic and 300,000 vacuum cleaners. Currently, more than 150 skilled employees work at the enterprise.",
+    "historyText4": "Today, the companies regularly supply their products to CIS countries under export contracts concluded with several states.",
     "quality": "Quality",
     "qualityDesc": "High quality is our main principle",
     "team": "Team",
@@ -50,7 +50,13 @@
     "phone": "Your phone number",
     "email": "Your email",
     "message": "Your message",
-    "send": "Send"
+    "send": "Send",
+    "advantageTitle1": "200+ Products",
+    "advantageDesc1": "We manufacture over 200 types of plastic products",
+    "advantageTitle2": "High Quality",
+    "advantageDesc2": "Modern equipment and quality control system",
+    "advantageTitle3": "Fast Delivery",
+    "advantageDesc3": "Timely order fulfillment and delivery"
   },
   "products": {
     "title": "Products",
@@ -456,5 +462,14 @@
     "model1": "TPA 90 / 120 / 230 - For small and micro parts",
     "model2": "TPA 330 / 400 / 500 - For medium-sized products",
     "model3": "TPA 680 / 1300 / 3300 - For large products"
+  },
+  "magna": {
+    "magnaCompany": "The story of our manufacturing company, Trinity Technology Ltd., began in 2018, when the owners made an important decision to open a new direction in the field of manufacturing. Despite being a relatively young company, we are part of a professional team distributing household appliances that has been active in the Central Asian markets for over 25 years. Thanks to this experience, from the very first days of our establishment, we were able to position ourselves as a modern, innovative, and technologically advanced enterprise producing products highly appreciated by tens of thousands of satisfied customers both in the Republic of Uzbekistan and abroad.",
+    "magnaMoreButton": "Learn more"
+  },
+  "partners": {
+    "title": "Partner with Us",
+    "desc": "Contact us to learn more about our services",
+    "contact": "Contact"
   }
 }

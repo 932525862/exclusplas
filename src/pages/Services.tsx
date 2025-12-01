@@ -170,17 +170,17 @@ const Services = () => {
       <section className="py-20 bg-gradient-primary text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-6">
-            Biz bilan hamkorlik qiling
+            {t("partners.title")}
           </h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Bizning xizmatlarimiz haqida ko'proq ma'lumot olish uchun biz bilan bog'laning
+            {t("partners.desc")}
           </p>
           <a
             href="/#contact"
             style={goldButtonStyle}
-            className="inline-block px-8 py-4 bg-[#FFD700] text-accent-foreground rounded-lg font-semibold text-lg hover:scale-105 transition-transform shadow-glow"
+            className="inline-block px-12 py-2 bg-[#FFD700] text-accent-foreground rounded-lg font-semibold text-lg hover:scale-105 transition-transform shadow-glow"
           >
-            Bog'lanish
+            {t("partners.contact")}
           </a>
         </div>
       </section>

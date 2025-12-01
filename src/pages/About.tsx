@@ -4,10 +4,18 @@ import { Award, Users, Target, TrendingUp } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import Backvideo from "@/assets/backrount.mp4";
 import CompanyVideo from "@/assets/invest.mp4";
+import { Button } from "@/components/ui/button";
 const About = () => {
   const { t } = useTranslation();
 
+  const goldButtonStyle = {
+    background: "linear-gradient(45deg,#d4af37,#f7e488,#fff6a9,#f1c40f,#d4af37)",
+    color: "black",
+    border: "none",
+    boxShadow: "inset 0 0 5px #fff6a9, 0 0 10px rgba(212,175,55,0.6)",
+  };
   return (
+
     <div className="min-h-screen pt-20">
       {/* Hero Section */}
       <section className="relative h-96 flex items-center justify-center overflow-hidden">
@@ -231,7 +239,36 @@ const About = () => {
           </div>
         </div>
       </section>
-
+      
+      <section className="pb-20 max-md:py-10 max-md:pt-10!">
+        <div className="container mx-auto px-4 grid grid-cols-2 gap-10 max-md:grid-cols-1">
+          <div className="flex items-center justify-center p-10 max-md:p-0">
+            <img 
+              src="/src/assets/magna-company.png" 
+              alt="magna logo" 
+              className="rounded-2xl" 
+            />
+          </div>
+          <div>
+            <h2 className="text-4xl font-bold mb-6">{t("about.history")}</h2>
+            {/* <h3 className="text-[18px] leading-[160%] tracking-[0.5px] text-muted-foreground mt-6">
+                  {t("magna.magnaCompany")}
+            </h3> */}
+            <p className="text-[18px] leading-[160%] tracking-[0.5px] text-muted-foreground mt-6">
+              {t("magna.magnaCompany")}
+            </p>
+            <Button
+              asChild
+              className="hover:opacity-80 px-8 mt-4 max-md:w-full"
+              style={goldButtonStyle}
+            >
+              <a href="https://uz.magna.uz/about" target="_blank">
+                {t("magna.magnaMoreButton")}
+              </a>
+            </Button>
+          </div>
+        </div>
+      </section>
       {/* Statistics */}
       <section className="py-20 bg-gradient-primary text-primary-foreground">
         <div className="container mx-auto px-4">
@@ -290,6 +327,7 @@ const About = () => {
           </div>
         </div>
       </section>
+      
 
       <style>{`
         .animation-delay-150 {
