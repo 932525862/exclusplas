@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import Backvideo from "@/assets/backrount.mp4";
 import CompanyVideo from "@/assets/invest.mp4";
 import { Button } from "@/components/ui/button";
+import magnaCompany from "@/assets/magna-company.png";
 const About = () => {
   const { t } = useTranslation();
 
@@ -244,8 +245,8 @@ const About = () => {
         <div className="container mx-auto px-4 grid grid-cols-2 gap-10 max-md:grid-cols-1">
           <div className="flex items-center justify-center p-10 max-md:p-0">
             <img 
-              src="/src/assets/magna-company.png" 
-              alt="magna logo" 
+              src={magnaCompany}
+              alt="magna logo"
               className="rounded-2xl" 
             />
           </div>
