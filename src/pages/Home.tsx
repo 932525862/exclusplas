@@ -30,13 +30,21 @@ const Home = () => {
   });
 
   const partners = [Partner1, Partner2, Partner3, Partner4, Partner5, Partner6];
-  const productNubers = [1, 5, 52];
+  const productNubers = [1, 5, 13];
 
   const products = productNubers.map((i) => ({
     name: t(`products_data.product${i}.title`),
     description: t(`products_data.product${i}.desc`),
     image: getImage(`${i}.png`),
   }));
+
+  const goldButtonStyle = {
+    background:
+      "linear-gradient(45deg,#d4af37,#f7e488,#fff6a9,#f1c40f,#d4af37)",
+    color: "black",
+    border: "none",
+    boxShadow: "inset 0 0 5px #fff6a9, 0 0 10px rgba(212,175,55,0.6)",
+  };
 
   const categories = [
     t("products.household"),
@@ -77,7 +85,13 @@ const Home = () => {
 
         <div className="container mx-auto px-4 z-10 text-center text-primary-foreground animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            <span className="bg-[#FFD700] bg-clip-text text-transparent">
+            <span
+              className="bg-[#FFD700] bg-clip-text text-transparent"
+              style={{
+                backgroundImage:
+                  "linear-gradient(45deg,#d4af37,#f7e488,#f1c40f,#fff6a9,#d4af37)",
+              }}
+            >
               Exclusive Invest Industry
             </span>
           </h1>
@@ -87,6 +101,7 @@ const Home = () => {
           <Button
             onClick={() => navigate("/about")}
             size="lg"
+            style={goldButtonStyle}
             className="bg-[#FFD700] text-accent-foreground hover:scale-105 transition-transform duration-300 shadow-glow"
           >
             {t("hero.learnMore")}
@@ -100,19 +115,76 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8 mb-16">
             <Card className="border-primary/20 hover:shadow-premium transition-shadow duration-300 animate-fade-in">
-  <CardContent className="p-8 text-center">
-    <Factory className="w-16 h-16 text-[#FFD700] mx-auto mb-4" />
-    <h3 className="text-2xl font-bold mb-3">200+ Mahsulotlar</h3>
-    <p className="text-muted-foreground">
-      200 xildan ortiq plastik mahsulotlarni ishlab chiqaramiz
-    </p>
-  </CardContent>
-</Card>
+              <CardContent className="p-8 text-center">
+                <div className="w-16 h-16 mx-auto mb-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="64"
+                    height="64"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="url(#goldGradient)"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <defs>
+                      <linearGradient
+                        id="goldGradient"
+                        gradientTransform="rotate(45)"
+                      >
+                        <stop offset="0%" stopColor="#d4af37" />
+                        <stop offset="25%" stopColor="#f7e488" />
+                        <stop offset="50%" stopColor="#fff6a9" />
+                        <stop offset="75%" stopColor="#f1c40f" />
+                        <stop offset="100%" stopColor="#d4af37" />
+                      </linearGradient>
+                    </defs>
 
+                    <path d="M3 21V9l6 3 6-3v12" />
+                    <path d="M18 21V7l3-2v16" />
+                    <path d="M3 21h18" />
+                  </svg>
+                </div>
+
+                <h3 className="text-2xl font-bold mb-3">200+ Mahsulotlar</h3>
+                <p className="text-muted-foreground">
+                  200 xildan ortiq plastik mahsulotlarni ishlab chiqaramiz
+                </p>
+              </CardContent>
+            </Card>
 
             <Card className="border-primary/20 hover:shadow-premium transition-shadow duration-300 animate-fade-in animation-delay-150">
               <CardContent className="p-8 text-center">
-                <Shield className="w-16 h-16 text-[#FFD700] mx-auto mb-4" />
+                <div className="w-16 h-16 mx-auto mb-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="64"
+                    height="64"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="url(#goldGradient)"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <defs>
+                      <linearGradient
+                        id="goldGradient"
+                        gradientTransform="rotate(45)"
+                      >
+                        <stop offset="0%" stopColor="#d4af37" />
+                        <stop offset="25%" stopColor="#f7e488" />
+                        <stop offset="50%" stopColor="#fff6a9" />
+                        <stop offset="75%" stopColor="#f1c40f" />
+                        <stop offset="100%" stopColor="#d4af37" />
+                      </linearGradient>
+                    </defs>
+
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                  </svg>
+                </div>
+
                 <h3 className="text-2xl font-bold mb-3">Yuqori Sifat</h3>
                 <p className="text-muted-foreground">
                   Zamonaviy uskunalar va sifat nazorati tizimi
@@ -122,7 +194,36 @@ const Home = () => {
 
             <Card className="border-primary/20 hover:shadow-premium transition-shadow duration-300 animate-fade-in animation-delay-300">
               <CardContent className="p-8 text-center">
-                <Clock className="w-16 h-16 text-[#FFD700] mx-auto mb-4" />
+                <div className="w-16 h-16 mx-auto mb-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="64"
+                    height="64"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="url(#goldGradient)"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <defs>
+                      <linearGradient
+                        id="goldGradient"
+                        gradientTransform="rotate(45)"
+                      >
+                        <stop offset="0%" stopColor="#d4af37" />
+                        <stop offset="25%" stopColor="#f7e488" />
+                        <stop offset="50%" stopColor="#fff6a9" />
+                        <stop offset="75%" stopColor="#f1c40f" />
+                        <stop offset="100%" stopColor="#d4af37" />
+                      </linearGradient>
+                    </defs>
+
+                    <circle cx="12" cy="12" r="10" />
+                    <polyline points="12 6 12 12 16 14" />
+                  </svg>
+                </div>
+
                 <h3 className="text-2xl font-bold mb-3">Tez Yetkazib Berish</h3>
                 <p className="text-muted-foreground">
                   O'z vaqtida buyurtmalarni bajarish va yetkazib berish
@@ -143,6 +244,7 @@ const Home = () => {
               size="lg"
               variant="outline"
               className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+              style={goldButtonStyle}
             >
               {t("home.learnMore")}
               <ArrowRight className="ml-2" />
@@ -187,6 +289,7 @@ const Home = () => {
               onClick={() => navigate("/products")}
               size="lg"
               className="bg-[#FFD700] text-accent-foreground hover:scale-105 transition-transform"
+              style={goldButtonStyle}
             >
               {t("home.learnMore")}
               <ArrowRight className="ml-2" />
@@ -347,6 +450,7 @@ const Home = () => {
                   type="submit"
                   className="w-full bg-[#FFD700] text-accent-foreground hover:scale-105 transition-transform"
                   size="lg"
+                  style={goldButtonStyle}
                 >
                   {t("home.send")}
                 </Button>

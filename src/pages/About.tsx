@@ -75,40 +75,145 @@ const About = () => {
           {/* Values */}
           <div className="grid md:grid-cols-4 gap-8">
             <Card className="border-primary/20 hover:shadow-premium transition-all duration-300 hover:scale-105">
-              <CardContent className="p-8 text-center">
-                <Award className="w-16 h-16 text-[#FFD700] mx-auto mb-4" />
-                <h3 className="text-xl font-bold mb-2">{t("about.quality")}</h3>
-                <p className="text-muted-foreground">
-                  {t("about.qualityDesc")}
-                </p>
-              </CardContent>
-            </Card>
+  <CardContent className="p-8 text-center">
+    <div className="w-16 h-16 mx-auto mb-4">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="64"
+        height="64"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="url(#goldGradient)"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <defs>
+          <linearGradient id="goldGradient" gradientTransform="rotate(45)">
+            <stop offset="0%" stopColor="#d4af37" />
+            <stop offset="25%" stopColor="#f7e488" />
+            <stop offset="50%" stopColor="#fff6a9" />
+            <stop offset="75%" stopColor="#f1c40f" />
+            <stop offset="100%" stopColor="#d4af37" />
+          </linearGradient>
+        </defs>
+
+        {/* Award Icon Path (lucide-react SVG) */}
+        <circle cx="12" cy="8" r="7"></circle>
+        <path d="M8.21 13.89 7 22l5-3 5 3-1.21-8.11"></path>
+      </svg>
+    </div>
+
+    <h3 className="text-xl font-bold mb-2">{t("about.quality")}</h3>
+    <p className="text-muted-foreground">{t("about.qualityDesc")}</p>
+  </CardContent>
+</Card>
+
+
+           <Card className="border-primary/20 hover:shadow-premium transition-all duration-300 hover:scale-105">
+  <CardContent className="p-8 text-center">
+    <div className="w-16 h-16 mx-auto mb-4">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="64"
+        height="64"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="url(#goldGradient)"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <defs>
+          <linearGradient id="goldGradient" gradientTransform="rotate(45)">
+            <stop offset="0%" stopColor="#d4af37" />
+            <stop offset="25%" stopColor="#f7e488" />
+            <stop offset="50%" stopColor="#fff6a9" />
+            <stop offset="75%" stopColor="#f1c40f" />
+            <stop offset="100%" stopColor="#d4af37" />
+          </linearGradient>
+        </defs>
+
+        <path d="M17 21v-2a4 4 0 0 0-3-3.87"/>
+        <path d="M7 21v-2a4 4 0 0 1 3-3.87"/>
+        <circle cx="12" cy="7" r="4"/>
+      </svg>
+    </div>
+
+    <h3 className="text-xl font-bold mb-2">{t("about.team")}</h3>
+    <p className="text-muted-foreground">{t("about.teamDesc")}</p>
+  </CardContent>
+</Card>
 
             <Card className="border-primary/20 hover:shadow-premium transition-all duration-300 hover:scale-105">
-              <CardContent className="p-8 text-center">
-                <Users className="w-16 h-16 text-[#FFD700] mx-auto mb-4" />
-                <h3 className="text-xl font-bold mb-2">{t("about.team")}</h3>
-                <p className="text-muted-foreground">{t("about.teamDesc")}</p>
-              </CardContent>
-            </Card>
+  <CardContent className="p-8 text-center">
+    <div className="w-16 h-16 mx-auto mb-4">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="64"
+        height="64"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="url(#goldGradient)"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <defs>
+          <linearGradient id="goldGradient" gradientTransform="rotate(45)">
+            <stop offset="0%" stopColor="#d4af37" />
+            <stop offset="25%" stopColor="#f7e488" />
+            <stop offset="50%" stopColor="#fff6a9" />
+            <stop offset="75%" stopColor="#f1c40f" />
+            <stop offset="100%" stopColor="#d4af37" />
+          </linearGradient>
+        </defs>
+
+        <circle cx="12" cy="12" r="10"/>
+        <circle cx="12" cy="12" r="6"/>
+        <circle cx="12" cy="12" r="2"/>
+      </svg>
+    </div>
+
+    <h3 className="text-xl font-bold mb-2">{t("about.mission")}</h3>
+    <p className="text-muted-foreground">{t("about.missionDesc")}</p>
+  </CardContent>
+</Card>
 
             <Card className="border-primary/20 hover:shadow-premium transition-all duration-300 hover:scale-105">
-              <CardContent className="p-8 text-center">
-                <Target className="w-16 h-16 text-[#FFD700] mx-auto mb-4" />
-                <h3 className="text-xl font-bold mb-2">{t("about.mission")}</h3>
-                <p className="text-muted-foreground">
-                  {t("about.missionDesc")}
-                </p>
-              </CardContent>
-            </Card>
+  <CardContent className="p-8 text-center">
+    <div className="w-16 h-16 mx-auto mb-4">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="64"
+        height="64"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="url(#goldGradient)"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <defs>
+          <linearGradient id="goldGradient" gradientTransform="rotate(45)">
+            <stop offset="0%" stopColor="#d4af37" />
+            <stop offset="25%" stopColor="#f7e488" />
+            <stop offset="50%" stopColor="#fff6a9" />
+            <stop offset="75%" stopColor="#f1c40f" />
+            <stop offset="100%" stopColor="#d4af37" />
+          </linearGradient>
+        </defs>
 
-            <Card className="border-primary/20 hover:shadow-premium transition-all duration-300 hover:scale-105">
-              <CardContent className="p-8 text-center">
-                <TrendingUp className="w-16 h-16 text-[#FFD700] mx-auto mb-4" />
-                <h3 className="text-xl font-bold mb-2">{t("about.growth")}</h3>
-                <p className="text-muted-foreground">{t("about.growthDesc")}</p>
-              </CardContent>
-            </Card>
+        <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/>
+        <polyline points="17 6 23 6 23 12"/>
+      </svg>
+    </div>
+
+    <h3 className="text-xl font-bold mb-2">{t("about.growth")}</h3>
+    <p className="text-muted-foreground">{t("about.growthDesc")}</p>
+  </CardContent>
+</Card>
+
           </div>
         </div>
       </section>
@@ -118,22 +223,54 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div className="animate-fade-in">
-              <div className="text-5xl font-bold text-[#FFD700] mb-2">20+</div>
+              <div
+                className="text-5xl font-bold text-transparent bg-clip-text mb-2"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(45deg,#d4af37,#f7e488,#fff6a9,#f1c40f,#d4af37)",
+                }}
+              >
+                20+
+              </div>
               <p className="text-xl">{t("about.yearsExperience")}</p>
             </div>
 
             <div className="animate-fade-in animation-delay-150">
-              <div className="text-5xl font-bold text-[#FFD700] mb-2">200+</div>
+              <div
+                className="text-5xl font-bold text-transparent bg-clip-text mb-2"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(45deg,#d4af37,#f7e488,#fff6a9,#f1c40f,#d4af37)",
+                }}
+              >
+                200+
+              </div>
               <p className="text-xl">{t("about.productTypes")}</p>
             </div>
 
             <div className="animate-fade-in animation-delay-300">
-              <div className="text-5xl font-bold text-[#FFD700] mb-2">500+</div>
+              <div
+                className="text-5xl font-bold text-transparent bg-clip-text mb-2"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(45deg,#d4af37,#f7e488,#fff6a9,#f1c40f,#d4af37)",
+                }}
+              >
+                500+
+              </div>
               <p className="text-xl">{t("about.happyClients")}</p>
             </div>
 
             <div className="animate-fade-in animation-delay-450">
-              <div className="text-5xl font-bold text-[#FFD700] mb-2">100%</div>
+              <div
+                className="text-5xl font-bold text-transparent bg-clip-text mb-2"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(45deg,#d4af37,#f7e488,#fff6a9,#f1c40f,#d4af37)",
+                }}
+              >
+                100%
+              </div>
               <p className="text-xl">{t("about.qualityGuarantee")}</p>
             </div>
           </div>

@@ -35,6 +35,14 @@ const Navigation = () => {
 
   const isActive = (path: string) => location.pathname === path;
 
+  // GOLD Button style
+  const goldButtonStyle = {
+    background: "linear-gradient(45deg,#d4af37,#f7e488,#fff6a9,#f1c40f,#d4af37)",
+    color: "black",
+    border: "none",
+    boxShadow: "inset 0 0 5px #fff6a9, 0 0 10px rgba(212,175,55,0.6)",
+  };
+
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#015436] backdrop-blur-sm shadow-premium">
       <div className="container mx-auto px-4">
@@ -43,9 +51,14 @@ const Navigation = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
             <img src={Logo} alt="Exclusive Plast Logo" className="h-12 w-auto" />
+            
+            {/* GOLD TEXT */}
             <div
               className="text-2xl font-bold text-transparent bg-clip-text"
-              style={{ backgroundImage: "linear-gradient(#FFD700,#FFD700)" }}
+              style={{
+                backgroundImage:
+                  "linear-gradient(45deg,#d4af37,#f7e488,#f1c40f,#fff6a9,#d4af37)",
+              }}
             >
               EXCLUSIVE PLAST
             </div>
@@ -75,7 +88,7 @@ const Navigation = () => {
                   variant="ghost"
                   size="icon"
                   className="hover:opacity-80"
-                  style={{ backgroundColor: "#FFD700", color: "black" }}
+                  style={goldButtonStyle}
                 >
                   <Globe className="h-5 w-5" />
                 </Button>
@@ -94,11 +107,7 @@ const Navigation = () => {
             </DropdownMenu>
 
             {/* Contact Button */}
-            <Button
-              asChild
-              className="hover:opacity-80"
-              style={{ backgroundColor: "#FFD700", color: "black" }}
-            >
+            <Button asChild className="hover:opacity-80" style={goldButtonStyle}>
               <a href="#contact">{t("nav.contact")}</a>
             </Button>
           </div>
@@ -130,7 +139,7 @@ const Navigation = () => {
               </Link>
             ))}
             
-            {/* Mobile language buttons */}
+            {/* Mobile Languages */}
             <div className="flex gap-2 pt-2">
               {languages.map((lang) => (
                 <Button
@@ -138,11 +147,7 @@ const Navigation = () => {
                   size="sm"
                   onClick={() => changeLanguage(lang.code)}
                   className="flex-1 hover:opacity-80"
-                  style={{
-                    backgroundColor: "#FFD700",
-                    color: "black",
-                    border: "none"
-                  }}
+                  style={goldButtonStyle}
                 >
                   {lang.name}
                 </Button>
@@ -153,7 +158,7 @@ const Navigation = () => {
             <Button
               asChild
               className="w-full hover:opacity-80"
-              style={{ backgroundColor: "#FFD700", color: "black" }}
+              style={goldButtonStyle}
             >
               <a href="#contact" onClick={() => setIsOpen(false)}>
                 {t("nav.contact")}

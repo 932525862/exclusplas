@@ -5,6 +5,15 @@ import Logo from "@/assets/лого.png";
 const Footer = () => {
   const { t } = useTranslation();
 
+
+  const goldButtonStyle = {
+    background:
+      "linear-gradient(45deg,#d4af37,#f7e488,#fff6a9,#f1c40f,#d4af37)",
+    color: "black",
+    border: "none",
+    boxShadow: "inset 0 0 5px #fff6a9, 0 0 10px rgba(212,175,55,0.6)",
+  };
+
   return (
     <footer className="bg-[#015436] text-primary-foreground">
       <div className="container mx-auto px-4 py-12">
@@ -14,7 +23,12 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-3 mb-4">
               <img src={Logo} alt="Exclusive Plast Logo" className="h-12 w-auto" />
-              <h3 className="text-2xl font-bold bg-[#FFD700] bg-clip-text text-transparent">
+              <h3 className="text-2xl font-bold bg-[#FFD700] bg-clip-text text-transparent"
+              style={{
+                backgroundImage:
+                  "linear-gradient(45deg,#d4af37,#f7e488,#f1c40f,#fff6a9,#d4af37)",
+              }}
+              >
                 EXCLUSIVE PLAST
               </h3>
             </div>
@@ -49,6 +63,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="p-3 bg-accent rounded-full hover:scale-110 transition-transform duration-300"
                 aria-label="Instagram"
+                style={goldButtonStyle}
               >
                 <Instagram size={24} className="text-accent-foreground" />
               </a>
@@ -58,6 +73,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="p-3 bg-accent rounded-full hover:scale-110 transition-transform duration-300"
                 aria-label="Telegram"
+                style={goldButtonStyle}
               >
                 <Send size={24} className="text-accent-foreground" />
               </a>

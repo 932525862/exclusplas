@@ -26,6 +26,15 @@ const Services = () => {
     },
   ];
 
+  const goldButtonStyle = {
+    background:
+      "linear-gradient(45deg,#d4af37,#f7e488,#fff6a9,#f1c40f,#d4af37)",
+    color: "black",
+    border: "none",
+    boxShadow: "inset 0 0 5px #fff6a9, 0 0 10px rgba(212,175,55,0.6)",
+  };
+
+
    const apparationData = Array.from({ length: 25 }, (_, i) => ({
       name: t(`apparations.apparation${i + 1}.name`),
       work: t(`apparations.apparation${i + 1}.work`),
@@ -80,7 +89,12 @@ const Services = () => {
           <div className="flex flex-col  max-md:mt-6 mt-16 font-medium max-w-5xl mx-auto bg-slate-50 overflow-hidden rounded-xl">
             <div className="max-md:overflow-x-auto">
               <div className="min-w-[600px]">
-                <div className="grid grid-cols-8 p-3 bg-[#FFD700]">
+                <div className="grid grid-cols-8 p-3 bg-[#FFD700]"
+                  style={{
+                  backgroundImage:
+                    "linear-gradient(45deg,#d4af37,#f7e488,#fff6a9,#f1c40f,#d4af37)",
+                }}
+                >
                   <div className="col-span-1 text-center">No</div>
                   <div className="col-span-3 text-center">{t("apparations_words.name")}</div>
                   <div className="col-span-4 text-center">{t("apparations_words.work")}</div>
@@ -163,6 +177,7 @@ const Services = () => {
           </p>
           <a
             href="/#contact"
+            style={goldButtonStyle}
             className="inline-block px-8 py-4 bg-[#FFD700] text-accent-foreground rounded-lg font-semibold text-lg hover:scale-105 transition-transform shadow-glow"
           >
             Bog'lanish
